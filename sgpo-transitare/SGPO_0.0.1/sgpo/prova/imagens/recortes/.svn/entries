@@ -1,0 +1,55 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/SGPO_0.0.1/sgpo/prova/imagens/recortes
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+layout-das-telas_vazio.html
+file
+
+
+
+
+2008-03-18T14:18:02.859375Z
+942cd5f1c464f7a738d1154cc90304c1
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+logo.html
+file
+
+
+
+
+2008-03-18T14:18:02.875000Z
+2e7b04702e83cf270e43da3517a511ff
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+images
+dir
+

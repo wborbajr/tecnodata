@@ -1,0 +1,14 @@
+
+Como instalar:
+
+Somente precisa inserir o código abaixo, na sua página inicial e pronto.
+Nosso portal se encarrega de mandar as notícias para o seu site assim no
+instante em que forem publicadas.
+
+
+
+<!--PTrans Widgets - widgets.portaldotransito.com.br -->
+<div class="PTransWidgetsStyle">
+<script src="http://www.portaldotransito.com.br/widgets/ptrans.widgets.inc.php" type="text/javascript"></script>
+</div>
+<!--//PTrans Widgets-->

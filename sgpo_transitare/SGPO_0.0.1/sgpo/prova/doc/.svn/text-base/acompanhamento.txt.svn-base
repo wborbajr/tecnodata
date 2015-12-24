@@ -1,0 +1,69 @@
+-- cliente: 1
+-- candidato: 3
+-- curso: 1
+
+select d.curso_descricao, c.disciplina_id, c.disciplina_descricao, par_dis_nr_questao, par_dis_dificuldade, a.*
+from bnq a
+ inner join param_curso_disciplina b on b.disciplina_id = a.disciplina_id 
+ inner join disciplina c on c.disciplina_id = b.disciplina_id 
+ inner join curso d on d.curso_id = b.curso_id 
+where b.curso_id = 1
+  and a.bnq_status_id = 1
+
+
+--
+-- Quantas questões existem para cada disciplinas
+--
+select count(a.disciplina_id), a.disciplina_id, disciplina_descricao
+from bnq a
+ inner join param_curso_disciplina b on b.disciplina_id = a.disciplina_id 
+ inner join disciplina c on c.disciplina_id = b.disciplina_id 
+ inner join curso d on d.curso_id = b.curso_id 
+where b.curso_id = 1
+group by a.disciplina_id
+
+-
+-
+---------------------->> RESULTADO FINAL <<----------------------
+-
+-
+-
+
+--
+--
+-- Pelo numero do renach do candidado
+-- localiza-se a prova que ele vai realizar
+-- e veririfica na parametrizacao como
+-- deve ser montada a prova
+SELECT pd.disciplina_id, pd.par_dis_dificuldade, par_dis_nr_questao
+FROM param_curso_disciplina pd
+WHERE pd.curso_id = (SELECT p.curso_id
+FROM prova p
+WHERE p.cand_id = (SELECT c.cand_id
+FROM candidato c
+WHERE c.cand_renach = 3)
+)
+
+--
+--
+-- Seleciona randomicamente 1 pergunta
+-- passando como parametro
+-- o codigo da disciplina e a dificuldade
+SELECT b.*
+FROM bnq b
+WHERE b.disciplina_id = 1
+AND b.bnq_status_id = 1
+AND dificuldade_id = 1
+ORDER BY rand() LIMIT 1
+
+--
+--
+-- Seleciona as opcoes (respostas)
+-- randomicamente tendo como parametro
+-- o codigo da questao
+SELECT bo.*
+FROM bnq_opcao bo
+WHERE bo.bnq_id = 55
+ORDER BY rand()
+
+

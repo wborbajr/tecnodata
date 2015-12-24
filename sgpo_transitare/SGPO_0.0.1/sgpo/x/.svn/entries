@@ -1,0 +1,31 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/x
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+cepcusto-2000-12-03.zip_FILES
+dir
+
+envia.php
+file
+
+
+
+
+2007-07-26T14:40:06.000000Z
+25bfe18fa0680f5387ce9e9a90d0f96a
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

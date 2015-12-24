@@ -1,0 +1,78 @@
+/* CSS prova eletronica */
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+body {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 2px;
+}
+
+input {
+	border: 0px;
+}
+
+/** GERAL **/
+#geral {
+	margin: auto;
+	width:774px;
+}
+
+/** CLASSES **/
+
+.titulo{
+	font:bold 25px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+
+.tela02tit{
+	font:bold 25px Verdana, Arial, Helvetica, sans-serif;
+	color:#E77817;
+}
+
+.tela02imput{
+	border: 0px;
+	background:#E77817;
+}
+
+.tela03tit{
+	font:bold 20px Verdana, Arial, Helvetica, sans-serif;
+	color:#005F8E;
+}
+
+.tela03txt{
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+.tela04imput{
+	border: 1px solid #205D8A;
+}
+
+.tela04cabecalho{
+	font: 9px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+.tela04questoes{
+	font:bold 16px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+.tela04respostas{
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+.tela04instrucaotit{
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFE00;
+}
+
+.tela04instrucao{
+	font:bold 9px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+}

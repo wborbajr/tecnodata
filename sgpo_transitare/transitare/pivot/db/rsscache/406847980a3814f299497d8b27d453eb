@@ -1,0 +1,54 @@
+O:9:"MagpieRSS":21:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:8:{i:0;a:10:{s:5:"title";s:23:"Pivot 1.40.4 notifier..";s:4:"link";s:203:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2007%2F09%2F03%2Fpivot_1404_notifier%2Fnotifier&seed_title=Pivot+1.40.4+notifier..";s:7:"updated";s:25:"2007-09-03T23:38:00-07:00";s:9:"published";s:25:"2007-09-03T12:49:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.177";s:12:"link_related";s:0:"";s:7:"summary";s:140:"We've released another minor upgrade to Pivot 1.40. Read the details on Pivot 1.40.4 here. This is a recommended upgrade to all Pivot users.";s:12:"atom_content";s:240:"
+                We've released another minor upgrade to Pivot 1.40. Read the details on <a target="_blank" href="http://pivotlog.net/archive/2007/09/03/pivot_1404">Pivot 1.40.4 here</a>. This is a recommended upgrade to all Pivot users.
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:3:"bob";}i:1;a:10:{s:5:"title";s:21:"screenshots notifier.";s:4:"link";s:202:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2007%2F07%2F02%2Fscreenshots_notifier%2Fnotifier&seed_title=screenshots+notifier.";s:7:"updated";s:25:"2007-07-02T01:06:00-07:00";s:9:"published";s:25:"2007-07-02T01:06:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.175";s:12:"link_related";s:0:"";s:7:"summary";s:189:"We're hardat work on Pivot X2.0 and to show some of it to you, we've uploaded some screenshots of the new administration interface. Read about it here, see them here, discuss about it here.";s:12:"atom_content";s:402:"
+                We're hardat work on Pivot X2.0 and to show some of it to you, we've uploaded some screenshots of the new administration interface. <a target="_blank" href="http://www.pivotlog.net/">Read about it here</a>, <a target="_blank" href="http://www.pivotlog.net/temp/">see them here</a>, <a target="_blank" href="http://forum.pivotlog.net/viewtopic.php?p=72620">discuss about it here</a>.
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:3:"bob";}i:2;a:10:{s:5:"title";s:22:"Pivot 1.40.3 notifier.";s:4:"link";s:202:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2007%2F06%2F17%2Fpivot_1403_notifier%2Fnotifier&seed_title=Pivot+1.40.3+notifier.";s:7:"updated";s:25:"2007-06-17T12:30:00-07:00";s:9:"published";s:25:"2007-06-17T12:30:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.173";s:12:"link_related";s:0:"";s:7:"summary";s:231:"We've just put out Pivot 1.40.3 as a maintenance release for all Pivot users. See the details here. 
+
+
+Be sure to keep an eye on this spot, because pretty soon we'll start showing off the nifty stuff we're developing for Pivot 2.0.";s:12:"atom_content";s:350:"
+                <p>
+We've just put out Pivot 1.40.3 as a maintenance release for all Pivot users. See the <a target="_blank" href="http://pivotlog.net/archive/2007/06/17/pivot_1403">details here</a>. 
+</p>
+<p>
+Be sure to keep an eye on this spot, because pretty soon we'll start showing off the nifty stuff we're developing for Pivot 2.0.</p>
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:3:"bob";}i:3;a:10:{s:5:"title";s:21:"Pivot 1.40.1 notifier";s:4:"link";s:201:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2007%2F02%2F04%2Fpivot_1401_notifier%2Fnotifier&seed_title=Pivot+1.40.1+notifier";s:7:"updated";s:25:"2007-02-04T08:29:00-07:00";s:9:"published";s:25:"2007-02-04T08:29:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.169";s:12:"link_related";s:0:"";s:7:"summary";s:173:"Pivot 1.40.1 has been released as a recommended upgrade for all users. There are no real new
+features, just a fair amount of bugfixes and other small improvements. Read on..";s:12:"atom_content";s:274:"
+                Pivot 1.40.1 has been released as a recommended upgrade for all users. There are no real new
+features, just a fair amount of bugfixes and other small improvements. <a target="_blank" href="http://pivotlog.net/archive/2007/02/04/pivot_1401">Read on</a>..
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:3:"bob";}i:4;a:10:{s:5:"title";s:16:"Pivot 1.40 final";s:4:"link";s:192:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2006%2F12%2F24%2Fpivot_140_final%2Fnotifier&seed_title=Pivot+1.40+final";s:7:"updated";s:25:"2006-12-24T06:53:00-07:00";s:9:"published";s:25:"2006-12-24T06:50:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.167";s:12:"link_related";s:0:"";s:7:"summary";s:359:"Pivot 1.40 final is out! It&#39;s got tons of new features, so be sure to go to the pivotlog.net homepage to read all about it! 
+
+
+On behalf of the Pivot team, we&#39;d like to wish you all the best for the holidays, regardless if you&#39;re celebrating the birth of baby Jesus, dancing naked in the forest, or just having a great time with the ones you love!";s:12:"atom_content";s:458:"
+                <p>
+Pivot 1.40 final is out! It&#39;s got tons of new features, so be sure to go to the <a target="_blank" href="http://pivotlog.net/index.php">pivotlog.net</a> homepage to read all about it! 
+</p>
+<p>
+On behalf of the Pivot team, we&#39;d like to wish you all the best for the holidays, regardless if you&#39;re celebrating the birth of baby Jesus, dancing naked in the forest, or just having a great time with the ones you love!</p>
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:5:"admin";}i:5;a:10:{s:5:"title";s:28:"Pivot 1.40 Beta 2 notifier..";s:4:"link";s:214:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2006%2F11%2F14%2Fpivot_140_beta_2_notifier%2Fnotifier&seed_title=Pivot+1.40+Beta+2+notifier..";s:7:"updated";s:25:"2006-11-14T14:22:00-07:00";s:9:"published";s:25:"2006-11-14T14:22:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.164";s:12:"link_related";s:0:"";s:7:"summary";s:212:"We&#39;ve released Pivot 1.40 beta 2, with new functionality like Tagging, shiny new image popups, improvements to the &#39;Registered Visitors&#39; functionality, and many other improvements! Read about it here.";s:12:"atom_content";s:331:"
+                <p>
+We&#39;ve released Pivot 1.40 beta 2, with new functionality like Tagging, shiny new image popups, improvements to the &#39;Registered Visitors&#39; functionality, and many other improvements! <a target="_blank" href="http://www.pivotlog.net/archive/2006/11/14/pivot_140_beta_2">Read about it here</a>.</p>
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:5:"admin";}i:6;a:10:{s:5:"title";s:24:"Pivot 1.40 beta notifier";s:4:"link";s:208:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2006%2F09%2F06%2Fpivot_140_beta_notifier%2Fnotifier&seed_title=Pivot+1.40+beta+notifier";s:7:"updated";s:25:"2006-09-06T13:13:00-07:00";s:9:"published";s:25:"2006-09-06T13:13:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.161";s:12:"link_related";s:0:"";s:7:"summary";s:229:"We&#39;ve just released Pivot 1.40 beta. This beta release contains new features like comment moderation, greatly improved Metaweblog API and an administration screen for Registered Visitors. Read all the details on pivotlog.net.";s:12:"atom_content";s:333:"
+                We&#39;ve just released Pivot 1.40 beta. This beta release contains new features like comment moderation, greatly improved Metaweblog API and an administration screen for Registered Visitors. Read all the details <a target="_blank" href="http://pivotlog.net/archive/2006/09/05/pivot_140_beta">on pivotlog.net</a>.
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:3:"bob";}i:7;a:10:{s:5:"title";s:23:"Pivot 1.30.2 notifier..";s:4:"link";s:203:"http://pivotlog.net/feeder/?FeederAction=clicked&feed=Notifier+%28Atom%29&seed=http%3A%2F%2Fwww.pivotlog.net%2Farchive%2F2006%2F08%2F16%2Fpivot_1302_notifier%2Fnotifier&seed_title=Pivot+1.30.2+notifier..";s:7:"updated";s:25:"2006-08-16T13:26:00-07:00";s:9:"published";s:25:"2006-08-16T13:26:00-07:00";s:2:"id";s:30:"tag:pivotlog,2007:notifier.159";s:12:"link_related";s:0:"";s:7:"summary";s:90:"There&#39;s yet another small update for Pivot: Pivot 1.30.2. Get it, while supplies last!";s:12:"atom_content";s:190:"
+                There&#39;s yet another small update for Pivot: <a target="_blank" href="http://pivotlog.net/archive/2006/08/16/pivot_1302">Pivot 1.30.2</a>. Get it, while supplies last!
+		";s:6:"author";s:7:"
+			
+		";s:11:"author_name";s:5:"admin";}}s:7:"channel";a:12:{s:5:"title";s:8:"Notifier";s:8:"subtitle";s:18:"A new Pivot weblog";s:4:"link";s:36:"http://www.pivotlog.net/notifier.php";s:9:"link_self";s:36:"http://www.pivotlog.net/notifier.xml";s:7:"updated";s:25:"2007-09-23T14:27:41-07:00";s:6:"author";s:8:"
+	
+	
+	
+	";s:11:"author_name";s:3:"Bob";s:10:"author_uri";s:36:"http://www.pivotlog.net/notifier.php";s:12:"author_email";s:16:"bob@pivotlog.net";s:2:"id";s:26:"tag:pivotlog,2007:notifier";s:9:"generator";s:5:"Pivot";s:6:"rights";s:39:"Copyright (c) 2007, Authors of Notifier";}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:4:"Atom";s:12:"feed_version";N;s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:17:"current_namespace";b:0;}

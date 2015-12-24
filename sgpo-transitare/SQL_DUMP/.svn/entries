@@ -1,0 +1,52 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/SQL_DUMP
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+sgpo_2008_01_07.sql
+file
+
+
+
+
+2008-03-18T14:18:16.296875Z
+e09d5ed17644842c7bad9750dc8e79e2
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+sgpo.sql
+file
+
+
+
+
+2008-03-18T14:18:16.312500Z
+b032ca788850366bd31517ba249a0174
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

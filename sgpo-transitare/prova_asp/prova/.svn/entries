@@ -1,0 +1,160 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/prova_asp/prova
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+fecha_prova.asp
+file
+
+
+
+
+2008-03-18T14:18:50.656250Z
+18b6c477da496023210095e7db7a4581
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+concluir.asp
+file
+
+
+
+
+2008-03-18T14:18:50.656250Z
+bcf6979f8e99b6e0745414896b3e202d
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+resposta.asp
+file
+
+
+
+
+2008-03-18T14:18:50.671875Z
+418d9cbcf1d580f15f96370727a39111
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+include
+dir
+
+placas
+dir
+
+confirmacao.asp
+file
+
+
+
+
+2008-03-18T14:18:50.687500Z
+892a2bd0f645b683d75ca0a3b43b7bce
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+confirmacao2.asp
+file
+
+
+
+
+2008-03-18T14:18:50.687500Z
+94a9b37cf7022ac84a5959151682cb26
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+_vti_cnf
+dir
+
+prova_modelo.asp
+file
+
+
+
+
+2008-03-18T14:18:50.703125Z
+ae510315c7db77d81b495057cc607bc5
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+index.asp
+file
+
+
+
+
+2008-03-18T14:18:50.718750Z
+4641d0f6abac3d28ffb2535935889950
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+prova.asp
+file
+
+
+
+
+2008-03-18T14:18:50.750000Z
+16c2b3f874836ed193421c633f71881a
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+index2.asp
+file
+
+
+
+
+2008-03-18T14:18:50.750000Z
+9c9a96181397a62269d879a247c73a36
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+img
+dir
+
+prova3.asp
+file
+
+
+
+
+2008-03-18T14:18:50.765625Z
+86191e6c89aa10e99edb47960915c4b8
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

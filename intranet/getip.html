@@ -1,0 +1,10 @@
+<script language="javascript">
+function ipval() {
+	var ip = new java.net.InetAddress.getLocalHost();
+	var ipStr = new java.lang.String(ip);
+	return ipStr.substring(ipStr.indexOf("/")+1);
+}
+</script>
+
+<script> alert(ipval()); </script>
+

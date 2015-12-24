@@ -1,0 +1,80 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgi/enquete/images
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+Thumbs.db
+file
+
+
+
+
+2007-08-06T19:55:00.000000Z
+d93644d1b64c4cf4c9e27d1e6b31c5c6
+2008-01-08T11:26:55.399734Z
+21
+waldir
+has-props
+
+bg.jpg
+file
+
+
+
+
+2007-08-01T12:05:26.000000Z
+0727a6cb639a9c282b8f81bb09d773be
+2008-01-08T11:26:55.399734Z
+21
+waldir
+has-props
+
+enquete.js.php
+file
+
+
+
+
+2007-08-07T13:43:08.000000Z
+cda79b227019bda5b4c9fac2df3fb144
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+votar.jpg
+file
+
+
+
+
+2007-08-06T19:47:28.000000Z
+7d45f18c42c68f3c3b0e3527d148245d
+2008-01-08T11:26:55.399734Z
+21
+waldir
+has-props
+
+ver.jpg
+file
+
+
+
+
+2007-08-06T19:46:38.000000Z
+159337594f46e9e86e67b55975a3902c
+2008-01-08T11:26:55.399734Z
+21
+waldir
+has-props
+

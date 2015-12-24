@@ -1,0 +1,49 @@
+<?php
+	require_once('class.compressor.php');
+	$compressor = new compressor('css,javascript,page');
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Administração de PodCasts - Upload</title>
+</head>
+
+<body>
+<table width="200" border="1">
+  <tr>
+    <td>Descri&ccedil;&atilde;o</td>
+    <td><input name="textfield" type="text" size="60" maxlength="255" /></td>
+  </tr>
+  <tr>
+    <td>Arquivo</td>
+    <td><input id="fileToUpload" type="file" size="45" name="fileToUpload" class="input"></td>
+  </tr>
+  <tr>
+    <td>&Aacute;rea</td>
+    <td>
+    	<select name="select">
+	      <option value="#" selected="selected"></option>
+	      <option value="1">Jornal</option>
+	      <option value="2">Entrevista</option>
+	      <option value="3">Reda&ccedil;&atilde;o</option>
+	    </select>    
+	</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    	<input type="button" name="Button" value="Postar" />
+    	<input type="button" name="Submit2" value="Novo" />
+	</td>
+  </tr>
+</table>
+</body>
+</html>
+
+<script type="text/javascript" src="../jq/jquery-1.2.3.pack.js"></script>
+<script type="text/javascript" src="upload.js"></script>
+
+<?php
+	$compressor->finish();
+?>

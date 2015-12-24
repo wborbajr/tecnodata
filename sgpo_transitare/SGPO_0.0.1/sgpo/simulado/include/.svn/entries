@@ -1,0 +1,76 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/simulado/include
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+config.inc.php
+file
+
+
+
+
+2007-08-17T12:03:46.000000Z
+1d0fc589d082d9f452946929eb71aa79
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+questoes.valida.inc.php
+file
+
+
+
+
+2007-07-23T18:54:22.000000Z
+9152d79420f491a56af6a72e423f6647
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+autentica_acao.php
+file
+
+
+
+
+2007-08-16T18:13:32.000000Z
+18a362606e49fbf6d198638fe79b717c
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+class_simulado.php
+file
+
+
+
+
+2007-08-16T18:13:54.000000Z
+e57c94df12ed4d903a40819ad30ee1ac
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+autentica_login.php
+file
+
+
+
+
+2007-08-16T18:11:16.000000Z
+8fd4b15d6c8b9b5c71285d1da5ea15ff
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

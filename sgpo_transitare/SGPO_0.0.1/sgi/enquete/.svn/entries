@@ -1,0 +1,91 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgi/enquete
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+questao.inc.php
+file
+
+
+
+
+2007-08-07T14:27:42.000000Z
+1963179bc33d7bdc765271cd5a2f8f16
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+enquete_lista.inc.php
+file
+
+
+
+
+2007-08-07T14:39:06.000000Z
+fab22638aff8a018501ea2e1e6f9d1fb
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+config.inc.php
+file
+
+
+
+
+2007-08-07T12:47:06.000000Z
+61fd08598b118d0cd409a88f4d7dbc7d
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+images
+dir
+
+enquete.js.php
+file
+
+
+
+
+2007-08-07T14:39:44.000000Z
+5cb3561529e7f242c5115a8f64dee054
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+votar.js.php
+file
+
+
+
+
+2007-08-07T21:37:46.000000Z
+e3808a4ddbe8a238359bd0550bac14cc
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+index.php
+file
+
+
+
+
+2007-08-07T21:37:48.000000Z
+3b431518d0d9f9e3e25a4dcabe3559b6
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

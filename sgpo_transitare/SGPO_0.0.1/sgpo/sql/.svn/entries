@@ -1,0 +1,64 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/sql
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+sgpo-estrutura-mysql.sql
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+8fa563801429c0731e00965018e81a26
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+sgpo.sql
+file
+
+
+
+
+2007-08-10T23:42:10.000000Z
+4247242e65b7c6dd22118877a985b757
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+sgpo2.sql
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+6a2e3d75b9e762a23f21407efc960c68
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+sgpo-mysql.sql
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+ecf93aba3c89468f83539d398e6c285a
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

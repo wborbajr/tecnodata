@@ -1,0 +1,52 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008/sgpo/tecnodata/include
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+autentica_acao.php
+file
+
+
+
+
+2008-01-08T11:10:07.656250Z
+dff9e43771ce99924a8971b9ccea5f62
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+autentica_login.php
+file
+
+
+
+
+2008-01-08T11:10:07.671875Z
+9ba5a99412ed5163e3311b863c46a230
+2008-01-08T11:11:31.913212Z
+20
+waldir
+

@@ -1,0 +1,351 @@
+/* CSS Tecnodata Intranet */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-color:#FFF;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+/** GERAL **/
+#dv_geral{
+	width:990px;
+	margin: auto;
+	background:url('img/fundo-intra.jpg');
+}
+
+/** TOPO **/
+#dv_topo{
+	width:990px;
+	height:135px;
+}
+
+/** COLUNAS **/
+#dv_colunas{
+	width:990px;
+	display:table;
+}
+
+/** MENU **/
+#dv_menu{
+	width: 198px;
+	_width: 180px;
+	float:left;
+}
+
+.logo{
+	width:198px;
+	height:135px;
+	display:block;
+	text-indent:-999px;
+	overflow:hidden;
+	background:url('img/parte-logo.jpg') no-repeat;
+}
+
+#dv_menu li{
+	padding-left:8px;
+	padding-bottom:2px;
+	_width:190px;
+}
+
+#dv_menu li a{
+	padding:10px 0 0 8px;
+}
+
+#dv_menu a{
+	font: bold 10px Verdana, Arial, Helvetica;
+	color:#FFF;
+	width: 174px;
+	height:22px;
+	display: block;
+	background:url('img/menu.gif') no-repeat 0 -33px;
+}
+
+#dv_menu a:hover{
+	font: bold 9px Verdana, Arial, Helvetica; 
+	background:url('img/menu.gif') no-repeat;
+}
+
+/** USUARIO **/
+#dv_usuario {
+	width: 560px;
+	_width: 553px;
+	padding:3px 8px;
+	margin-left:198px;
+	_margin-left:140px;
+	color:#F00;
+	display:none;
+}
+
+/** CONTEUDO **/
+#dv_conteudo {
+	width: 560px;
+	_width: 553px;
+	padding:3px 8px;
+	_padding:0;
+	margin-left:198px;
+	_margin-left:140px;
+}
+
+#dv_conteudo h2{
+	font:bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding:6px 0 0 8px;
+	width:510px;
+	height:40px;
+	display:block;
+	background:url('img/cab_limpo.jpg') no-repeat;
+}
+
+#dv_conteudo h3{
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding:6px 0 0 8px;
+	width:510px;
+	height:40px;
+	display:block;
+	background:url('img/cab_limpo.jpg') no-repeat;
+}
+
+#dv_conteudo h4{
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color:#143987;
+	padding:8px 0 0 5px;
+}
+
+#dv_conteudo h5{
+	font:bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color:#508CDE;
+	padding:8px 0 0 5px;
+}
+
+#dv_conteudo p {
+	padding-left:6px;
+}
+
+#dv_conteudo li {
+	padding:5px;
+}
+
+.clear{
+	clear:both;
+}
+
+.linkvoltar{
+	font: bold Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	width:226px;
+	height:37px;
+	display:block;
+	background:url('img/cab_limpo_peq.jpg') no-repeat;
+	padding:15px 0 0 0;
+}
+
+a.linkvoltar {
+	font: bold 10px Verdana, Arial, Helvetica;
+
+
+}
+
+a.linkvoltar:hover {
+	font: bold 11px Verdana, Arial, Helvetica;
+
+}
+
+
+/** LINKS **/
+#dv_links{
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+	width: 205px;
+	float:right;
+	margin-right:3px;
+	_margin-right:2px;
+}
+
+#dv_links h2{
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding:4px 0 0 4px;
+	width:200px;
+	height:33px;
+	display:block;
+	background:url('img/tarja-link.png') no-repeat;
+	_background:url('img/tarja-links.jpg') no-repeat;
+}
+
+.linkportal{
+	color:#000;
+	padding:14px 0 0 45px;
+	width:200px;
+	_width:155px;
+	height:24px;
+	display:block;
+	background:url('img/link-portal.jpg') no-repeat;
+}
+
+a.linkportal:hover {
+	font: bold 12px Verdana, Arial, Helvetica;
+}
+
+.linktecnodata{
+	color:#000;
+	padding:14px 0 0 45px;
+	width:200px;
+	_width:155px;
+	height:24px;
+	display:block;
+	background:url('img/link-tecnodata.jpg') no-repeat;
+}
+
+a.linktecnodata:hover {
+	font: bold 12px Verdana, Arial, Helvetica;
+}
+
+.linkblog{
+	color:#000;
+	padding:14px 0 0 45px;
+	width:200px;
+	_width:155px;
+	height:24px;
+	display:block;
+	background:url('img/link-blog.jpg') no-repeat;
+}
+
+a.linkblog:hover {
+	font: bold 12px Verdana, Arial, Helvetica;
+}
+
+.linkradio{
+	color:#000;
+	padding:14px 0 0 45px;
+	width:200px;
+	_width:155px;
+	height:24px;
+	display:block;
+	background:url('img/link-radio.jpg') no-repeat;
+}
+
+a.linkradio:hover {
+	font: bold 12px Verdana, Arial, Helvetica;
+}
+
+.linkcias{
+	color:#000;
+	padding:14px 0 0 45px;
+	width:200px;
+	_width:155px;
+	height:24px;
+	display:block;
+	background:url('img/link-cias.jpg') no-repeat;
+}
+
+a.linkcias:hover {
+	font: bold 12px Verdana, Arial, Helvetica;
+}
+
+.linkxdrive{
+	color:#000;
+	padding:14px 0 0 45px;
+	width:200px;
+	_width:155px;
+	height:24px;
+	display:block;
+	background:url('img/link-xdrive.jpg') no-repeat;
+}
+
+a.linkxdrive:hover {
+	font: bold 12px Verdana, Arial, Helvetica;
+}
+
+/** RODAPÉ **/
+#dv_rodape{
+	width: 990px;
+	height:62px;
+	background:url('img/rodape.jpg') no-repeat;
+	clear:both;	
+}
+
+#dv_rodape h1{
+	font: bold 8px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-align:right;
+	padding:40px 5px 0 0;
+}
+
+/** ESTILOS **/
+.linkconteudo{
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#11438C;
+	font:bold;
+}
+
+a.linkconteudo:hover {
+	color:#71A2E5;
+}
+
+.news{
+	font: 10px Verdana, Arial, Helvetica;
+	color: #909090;
+}
+
+.newslink{
+	font: bold 10px Verdana, Arial, Helvetica;
+	color: #000;
+}
+	a.newslink:link {
+	font: bold 10px Verdana, Arial, Helvetica;
+	color: #000;
+	text-decoration: none;
+}
+	a.newslink:hover {
+	font: bold 10px Verdana, Arial, Helvetica;
+	color: #007EC2;
+	text-decoration: none;
+}
+
+.destaque1-2{
+	font: 8px Verdana, Arial, Helvetica, sans-serif;
+	color: #CCC;
+	border-bottom-style:dotted;
+	border-right-style:dotted;
+}
+
+.destaque1-2 p{
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+
+.destaque3{
+	font: 8px Verdana, Arial, Helvetica, sans-serif;
+	color: #CCC;
+	border-bottom-style:dotted;
+}
+
+.destaque3 p{
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+.destaque4-5{
+	font: 8px Verdana, Arial, Helvetica, sans-serif;
+	color: #CCC;
+	border-right-style:dotted;
+}
+
+.destaque4-5 p{
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+/** no 6 não precisa **/
+
+.logado{
+	color:#F00;
+}

@@ -1,0 +1,52 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/SGPO_0.0.1/sgpo/tecnodata/bnq/old/doc
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+scripts sql.txt
+file
+
+
+
+
+2008-03-18T14:17:58.218750Z
+af89e648b79c8bf5fceec6cc72741cb6
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+processos.txt
+file
+
+
+
+
+2008-03-18T14:17:58.234375Z
+dce8cfb59716544f7d50581b52633350
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

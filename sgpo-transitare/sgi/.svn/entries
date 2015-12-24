@@ -1,0 +1,70 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/sgi
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+main.js.php
+file
+
+
+
+
+2008-03-18T14:17:54.046875Z
+8a29e938b7807be45a9cc1fa42de60ec
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+enquete
+dir
+
+widgets
+dir
+
+index.php
+file
+
+
+
+
+2008-03-18T14:17:54.062500Z
+c73eb1d1a60aecfec59b25713250ac7f
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+widgets.htm
+file
+
+
+
+
+2008-03-18T14:17:54.093750Z
+dd3bbd190456d0d3fcc454470b7536e3
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

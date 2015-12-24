@@ -1,0 +1,132 @@
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+
+	default.asp : implementation file 
+
+	Date        : 2003. 05. 15
+	Author      : Bastian Choi
+	Copyright   : NITGEN co.
+	
+////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<html>
+
+<script lang='javascript'>
+
+function capture()
+{	
+	var err
+	
+	// Check ID is not NULL
+	if ( document.MainForm.UserID.value == '' )
+	{
+		alert('Please enter user id !');
+		return(false);
+	}
+	
+	try // Exception handling
+	{
+		// Open device. [AUTO_DETECT]
+		// You must open device before capture.
+		DEVICE_FDP02		= 1;
+		DEVICE_FDU01		= 2;
+		DEVICE_AUTO_DETECT	= 255;
+	
+		var objDevice = document.objSecuBSP.Device;
+		var objExtraction = document.objSecuBSP.Extraction;
+				
+		objDevice.Open(DEVICE_AUTO_DETECT);
+
+		err = objDevice.ErrorCode;	// Get error code	
+		if ( err != 0 )		// Device open failed
+		{
+			alert('Device open failed !');
+			return(false);
+		}
+			
+		// Capture user's fingerprint.
+		objExtraction.Capture();
+		err = objExtraction.ErrorCode;	// Get error code
+	
+		if ( err != 0 )		// Enroll failed
+		{
+			alert('Capture failed ! Error Number : [' + err + ']');
+			objDevice.Close(DEVICE_AUTO_DETECT);
+			return(false);
+		}
+		else	// Capture success
+		{
+			// Get text encoded FIR data from SecuBSP module.
+			document.MainForm.FIRTextData.value = objExtraction.TextEncodeFIR;
+			alert('Capture success !');
+		}
+	
+		// Close device. [AUTO_DETECT]
+		objDevice.Close(DEVICE_AUTO_DETECT);
+		
+		objExtraction = 0;
+		objDevice = 0;		
+
+	}
+	catch(e)
+	{
+		alert(e.message);
+		return(false);
+	}
+	
+	// Submit main form
+	document.MainForm.submit();
+	return(true);
+}
+
+</script>
+
+<body>
+
+<br>
+<br>
+
+<center>
+<font size=5><b>SecuBSP IIs Sample</b></font>
+<hr>
+<p>
+
+<font color=#800000><b>Verification</b></font>
+
+<br>
+<br>
+<br>
+
+<form action='verify.asp' name='MainForm' method='post' OnSubmit='return capture();'>
+<input type=hidden name='FIRTextData'>
+
+<table>
+<tr><td>User ID</td>
+	<td>: <input type=text name=UserID size=20></td></tr>
+</table>
+
+<p>
+<input type=submit value=' Click here to verification with your fingerprint '>
+
+</form>
+
+</center>
+
+<br>
+<br>
+<br>
+
+<hr>
+<p align=right>
+<font size=2>Copyright ¨Ï 2003. NITGEN co.,Ltd. All rights reserved.</font>
+</p>
+
+<!-- SecuBSP Component -->
+<OBJECT classid="CLSID:AA8777C7-B84A-4A10-A0A5-02B01A41396C"		 
+		height=0 width=0
+		id="objSecuBSP"
+		name="objSecuBSP"
+    VIEWASTEXT>
+</OBJECT>
+
+</body>
+</html>

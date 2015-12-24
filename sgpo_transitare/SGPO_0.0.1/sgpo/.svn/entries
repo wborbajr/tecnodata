@@ -1,0 +1,99 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+imagens
+dir
+
+include
+dir
+
+prova
+dir
+
+css
+dir
+
+envia.php
+file
+
+
+
+
+2007-07-26T16:21:00.000000Z
+42cb9bfbaf87f8b5717d6d6b079cbe80
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+index.htm
+file
+
+
+
+
+2007-08-17T11:59:34.000000Z
+6b7227e88b5ce3cf7ae3e0b9bb472286
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+sql
+dir
+
+tecnodata
+dir
+
+x
+dir
+
+js
+dir
+
+transitare
+dir
+
+simulado
+dir
+
+simuladoOLD.zip
+file
+
+
+
+
+2007-07-30T12:39:54.000000Z
+850c46f76f381915f62b8e0620b1ecf7
+2008-01-08T11:26:55.399734Z
+21
+waldir
+has-props
+
+old
+dir
+
+simulado.zip
+file
+
+
+
+
+2007-08-09T22:13:20.000000Z
+5a31bfb332c5f784c55c4c5b29d8d664
+2008-01-08T11:26:55.399734Z
+21
+waldir
+has-props
+

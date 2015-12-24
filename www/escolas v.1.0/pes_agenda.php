@@ -1,0 +1,280 @@
+<?php
+
+	require_once("./includes/restrito.inc.php"); 
+	require_once('./includes/conexao.inc.php');
+	require_once("./includes/populaCombo.inc.php");
+	require_once("./includes/funcoes.inc.php");
+	
+	// Executa a conexao com o banco de dados
+	dbcon();
+	
+	if ($_SERVER["REQUEST_METHOD"] == "POST"){
+	
+		if(($_POST["txtAcao"] == "excluir") || ($_POST["txtAcao"] == "editar")){
+
+			// Exclusao de um agendamento
+			if($_POST["txtAcao"] == "excluir"){
+				$SQL = "DELETE FROM agenda WHERE idage = " . $_POST["txtCod"];
+			}
+			
+			$result = mysql_query($SQL);
+	
+			if (!$result) {
+				die("Erro ao select da tabela AGENDA. Técnico:" . mysql_error());
+			}
+	
+			if (mysql_num_rows($result) < 1){
+				$_SESSION["MSG"] = "Registro excluido com sucesso.";
+			}
+			
+		}
+
+		// Verifica se selecionou um consultor ou informou alguma escola
+		if(($_POST["cbConsultor"] == "Todos os consultores") && ($_POST["dtINI"] == "") && ($_POST["dtFIN"] == "")){
+			$SQL = "SELECT a.idage, a.data_obs, a.hora_obs, a.data_vis, a.hora_vis, a.obs, e.nome_fantasia,
+					(SELECT nome FROM pessoa WHERE a.idpes_de = idpes) AS agendaDE,
+					(SELECT nome FROM pessoa WHERE a.idpes_para = idpes) AS agendaPARA, a.visita
+					FROM agenda a, escola e, pessoa p
+					WHERE a.idesc = e.idesc
+					AND p.idpes = a.idpes_de";
+
+		}else{
+			// Excuta a pesquisa com base em parametros
+			$SQL = "SELECT a.idage, a.data_obs, a.hora_obs, a.data_vis, a.hora_vis, a.obs, e.nome_fantasia,
+					(SELECT nome FROM pessoa WHERE a.idpes_de = idpes) AS agendaDE,
+					(SELECT nome FROM pessoa WHERE a.idpes_para = idpes) AS agendaPARA, a.visita
+					FROM agenda a, escola e, pessoa p
+					WHERE a.idesc = e.idesc
+					AND p.idpes = a.idpes_de";
+
+			if($_POST["cbConsultor"] != "Todos os consultores"){
+				$SQL .= " AND p.idpes = " . $_POST["cbConsultor"];
+			}
+
+			if(($_POST["dtINI"] != "") && ($_POST["dtFIN"] != "")){
+				$SQL .= " AND a.data_obs BETWEEN '" . dataToBanco($_POST["dtINI"]) ."' AND '" . dataToBanco($_POST["dtFIN"]) . "'";
+			}
+			
+		}
+		
+		// Verifica se a opcao visita esta ticada
+		if($_POST["cbVisita"] != ""){
+			$SQL .= " ORDER BY a.data_vis, a.hora_vis ";	
+		}else{
+			$SQL .= " ORDER BY a.data_obs, a.hora_obs ";	
+		}
+
+		// Executa a procura
+		$PES = mysql_query($SQL);
+
+		if (!$PES) {
+			die("Erro ao select da tabela AGENDA. Técnico:" . mysql_error());
+		}
+
+		if (mysql_num_rows($PES) < 1){
+			$_SESSION["MSG"] = "Não existem dados para ser pesquisado.";
+		}
+	}
+?>
+
+<html>
+<head>
+<title>.:: ::.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+<!--
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #EFEFEF;
+}
+.td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FF0000;
+	background-color: #FFFFCC;
+}
+.style2 {font-size: 12px}
+.style3 {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+-->
+</style>
+
+<script language="JavaScript" type="text/javascript">
+function processa(fqual,facao) {
+	document.frmPesquisa.txtAcao.value=facao;
+	document.frmPesquisa.txtCod.value=fqual;
+
+	document.frmPesquisa.submit();
+}
+</script>
+
+<script language="JavaScript1.2">
+function FormatarData(campo,e){
+	var cod="";
+	if(document.all) {
+		cod=event.keyCode;
+	}else {
+		cod=e.which;
+	}
+	
+	if(cod == 08 || cod == 13 || cod == 46 || cod == 00) return;
+		
+	if (cod < 48 || cod > 57){
+		if (cod < 45 || cod > 57) 
+			alert("Digite somente Caracteres Numéricos!");
+		cod=0;
+		campo.focus(); return false;
+	}
+	
+	tam=campo.value.length; 
+	
+	if(tam > 9) 
+		return false;
+	var caract = String.fromCharCode(cod);
+	
+	if(tam == 2 || tam == 5) {
+		campo.value+="/"+caract; 
+		return false;
+	}
+	
+	campo.value+=caract; 
+	return false;
+}
+document.onKeyPress=FormatarData;
+</script>
+
+</head>
+<body>
+<form action="<? echo $_SERVER["PHP_SELF"]; ?>" method="post" name="frmPesquisa" id="frmPesquisa">
+  <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td valign="top"><table width="98%"  border="0" align="center" cellpadding="0" cellspacing="0" valign="middle">
+        <tr>
+          <td valign="top"><table width="98%"  border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="612" class="texto"></td>
+              </tr>
+              <tr>
+                <td class="td">
+					<span class="texto"><strong>&nbsp;&nbsp;&nbsp;Pesquisa Agenda </strong> 
+					</span>
+				</td>
+              </tr>
+		    <? if (!empty($_SESSION["MSG"])) { ?>
+			<tr>
+			    <td colspan="4" class="texto"> 
+			    </td>
+			</tr>
+			<tr>
+			    <td colspan="4" class="texto"> 
+			    </td>
+			</tr>
+			<tr>
+			    <td colspan="4" class="texto">
+			        <div align="center" style="width:100%;color:red;"><? $mostra=$_SESSION["MSG"]; echo $mostra; $_SESSION["MSG"]="" ?></div></td>
+			</tr>
+		    <? } ?>
+              <tr>
+                <td class="texto">
+                  <table width="100%"  border="0" align="center" cellpadding="5" cellspacing="2">
+                    <tr>
+                      <td width="11%" class="texto" align="right"><div align="right" class="style1 style2"><b>Consultor </b> </div></td>
+                      <td width="30%"  align="left" class="texto">
+					<? $arrayUsuario = populaCombo("pessoa","idpes","nome","","nome"); ?>
+					<select name="cbConsultor" tmt:invalidindex="0" tmt:message="Selecione um consultor" />
+					<option>Todos os consultores</option>
+					<?
+					for ($i = 0; $i < count($arrayUsuario); ++$i) {
+					?>
+					<option value="<? echo $arrayUsuario[$i][0]; ?>"><? echo $arrayUsuario[$i][1]; ?></option>
+					<?
+					}
+					?>
+				  </select>	
+                      </td>
+                      <td width="8%"  align="left" class="texto"><div align="right" class="style3">Per&iacute;odo</div></td>
+                      <td width="51%"  align="left" class="texto"><input name="dtINI" type="text" class="box" id="dtINI" size="11" maxlength="10" OnKeyPress='javascript:return(FormatarData(this,event));'>
+                          <span class="style4"><strong>&agrave;</strong></span>
+                              <input name="dtFIN" type="text" class="box" id="dtFIN" size="11" maxlength="10" OnKeyPress='javascript:return(FormatarData(this,event));'>
+                              <strong><span class="style3">S&oacute; as visitas</span> 
+                              <input name="cbVisita" type="checkbox" id="cbVisita" value="checkbox">
+                              </strong></td>
+                    </tr>
+                    <tr>
+                      <td  class="texto" align="center" colspan="4">
+		        		<input name="btPesquisa" type="button" id="btPesquisa" style="cursor:pointer;" onClick="javascript:document.frmPesquisa.submit();" value="Pesquisa"> 
+						&nbsp;&nbsp; 
+						<input name="btNovo" type="button" id="btNovo" style="cursor:pointer;" onClick="window.location='agenda.php';return true;" value="Novo">
+						</td>
+                    </tr>
+                    <tr>
+                      <td colspan="4"  class="texto"><hr></td>
+                    </tr>
+                    <tr bgcolor="#F9F9F9">
+                      <td colspan="4" class="texto">
+		      <table width="100%"  border="0" cellspacing="1" cellpadding="1">
+                        <tr >
+                          <td width="5%" align="center"><b class="texto style1 style2"> <b>Data  </b></b></td>
+                          <td width="9%" align="center"><b class="texto style1 style2"><b>Data Vis </b></b></td>
+                          <td width="7%" align="center"><b class="texto style1 style2"><b>Hora Vis </b></b></td>
+                          <td width="16%" align="center"><b class="texto style1 style2">De</b></td>
+                          <td width="11%" align="center"><b class="texto style1 style2">Para</b></td>
+                          <td width="15%" align="center"><b class="texto style1 style2">Cliente</b></td>
+                          <td width="20%" align="center"><b class="texto style1 style2">Obs</b></td>
+                          <td width="5%" align="center"><b class="texto style1 style2">Alterar</b></td>
+                          <td width="5%" align="center"><b class="texto style1 style2">Excluir</b></td>
+                          <td width="7%" align="center"><b class="texto style1 style2">Realizado</b></td>
+                        </tr>
+				  <?
+					while($dados = mysql_fetch_array($PES)){
+		          ?>
+				  		<? if ($dados["data_vis"] != "0000-00-00"){ ?><tr bgcolor="#EFEFEF">
+						<? } ?>
+                          <td><span class="style4"><? echo bancoToData($dados["data_obs"],2); ?></span></td>
+                          <td><span class="style4"><? echo bancoToData($dados["data_vis"],2); ?></span></td>
+                          <td><span class="style4"><? echo formataHora($dados["hora_vis"]); ?></span></td>
+                          <td><span class="style4"><? echo $dados["agendaDE"]; ?></span></td>
+                          <td><span class="style4"><? echo $dados["agendaPARA"]; ?></span></td>
+                          <td><span class="style4"><? echo $dados["nome_fantasia"]; ?></span></td>
+                          <td><span class="style4"><? echo $dados["obs"]; ?></span></td>
+                          <td align="center">
+						  <a onClick="processa('<? echo $dados["idage"]; ?>','edita');" style="cursor:pointer;"><img src="images/editar_image.gif" alt="Alterar cadastro" width="19" height="19"></a>						  </td>
+                          <td align="center"><a onClick="if(confirm('Deseja realmente excluir a agendamento?')){processa('<? echo $dados["idage"]; ?>','excluir');}else{return false;}" style="cursor:pointer;"><img src="images/excluir_image.gif" alt="Excluir agendamento" width="18" height="15"></a></td>
+                          <td align="center">
+				        <a onClick="if(confirm('Deseja realmente excluir a agendamento?')){processa('<? echo $dados["idage"]; ?>','excluir');}else{return false;}" style="cursor:pointer;"></a>						  </td>
+                        </tr>
+					<?
+					}
+					?>					  
+                      </table>
+					  </td>
+                    </tr>
+
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+  </table>
+  <input name="txtCod" type="hidden" >
+  <input name="txtAcao" type="hidden" >
+</form>
+</body>
+</html>

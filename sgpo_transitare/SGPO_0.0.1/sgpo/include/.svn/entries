@@ -1,0 +1,79 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/include
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+dao_functions.php
+file
+
+
+
+
+2007-07-17T22:02:20.000000Z
+cd9f6f9ffc64f74585b2b846ecbadbab
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+database.inc.php
+file
+
+
+
+
+2007-07-17T22:02:20.000000Z
+2d51d472a7945f430218a97f6f3140ca
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+config.inc.php
+file
+
+
+
+
+2007-08-14T14:18:42.000000Z
+c275ba36596d24d07fe1be42ce3aa5a5
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+rss
+dir
+
+teste.php
+file
+
+
+
+
+2007-07-17T22:02:20.000000Z
+e323c3cbbf53933730def5e962625850
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+dao_mysql.php
+file
+
+
+
+
+2007-07-17T22:02:20.000000Z
+99112e7673b925ce5f0ea4531d85224a
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

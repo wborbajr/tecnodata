@@ -1,0 +1,40 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SQL_DUMP
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+sgpo_2008_01_07.sql
+file
+
+
+
+
+2008-01-08T11:10:28.718750Z
+e09d5ed17644842c7bad9750dc8e79e2
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+sgpo.sql
+file
+
+
+
+
+2008-01-08T11:10:28.781250Z
+b032ca788850366bd31517ba249a0174
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

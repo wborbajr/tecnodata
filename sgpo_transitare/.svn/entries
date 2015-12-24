@@ -1,0 +1,103 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+img_placas
+dir
+
+sgi
+dir
+
+Documetos
+dir
+
+SGPO_0.0.1
+dir
+
+SQL_DUMP
+dir
+
+sgpo_2008_01_07.sql
+file
+21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+sgpo.sql
+file
+21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+sgpo
+dir
+
+Requisito de Software
+dir
+
+der
+dir
+
+transitare
+dir
+

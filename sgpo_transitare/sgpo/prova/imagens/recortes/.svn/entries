@@ -1,0 +1,55 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008/sgpo/prova/imagens/recortes
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+layout-das-telas_vazio.html
+file
+
+
+
+
+2008-01-08T11:10:10.296875Z
+942cd5f1c464f7a738d1154cc90304c1
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+logo.html
+file
+
+
+
+
+2008-01-08T11:10:10.312500Z
+2e7b04702e83cf270e43da3517a511ff
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+images
+dir
+

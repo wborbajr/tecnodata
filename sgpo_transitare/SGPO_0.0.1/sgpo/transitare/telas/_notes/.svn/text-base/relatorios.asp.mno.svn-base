@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:CodCfc;datatype:3,name:NomeCfc;datatype:200,name:EnderecoCfc;datatype:201,name:CidadeCfc;datatype:200,name:CepCfc;datatype:200,name:EstadoCfc;datatype:200,name:FotoCfc;datatype:200,name:lbsid;datatype:200,name:FoneCfc;datatype:200,name:EmailCfc;datatype:200,name:LoginCfc;datatype:200,name:SenhaCfc;datatype:200" />
+</info>

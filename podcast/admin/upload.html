@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Administração de PodCasts - Upload</title>
+</head>
+
+<body>
+	<form method="POST" enctype="multipart/form-data" action="upload.php" name="frmPodcast" id="frmPodcast" >
+		<table width="200" border="0" cellspacing="2">
+		  <tr>
+		    <td>Descri&ccedil;&atilde;o</td>
+		    <td><input id="txDescri" name="txDescri" type="text" size="60" maxlength="255" /></td>
+		  </tr>
+		  <tr>
+		    <td>Arquivo</td>
+		    <td><input id="podcastFile" type="file" size="45" name="podcastFile" class="input"></td>
+		  </tr>
+		  <tr>
+		    <td>&Aacute;rea</td>
+		    <td>
+		    	<select name="area" id="area">
+			      <option value="#" selected="selected"></option>
+			      <option value="1">Jornal</option>
+			      <option value="2">Entrevista</option>
+			      <option value="3">Reda&ccedil;&atilde;o</option>
+			    </select>    
+			</td>
+		  </tr>
+		  <tr>
+		    <td colspan="2">
+		    	<img id="loading" src="loading.gif" style="display:none;">
+	    	<input type="button" id="btGO" name="btGO" value="Enviar e Salvar" /></td>
+		  </tr>
+	  </table>
+	</form>
+	
+	<div id="aviso"></div>
+	
+</body>
+</html>
+
+<script type="text/javascript" src="../jq/jquery.js"></script>
+<script type="text/javascript" src="../jq/jquery.form.js"></script>
+<script type="text/javascript" src="upload_jsc.js"></script>

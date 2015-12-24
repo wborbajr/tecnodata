@@ -1,0 +1,52 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/css
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+prova_branco.css
+file
+
+
+
+
+2007-06-06T20:55:38.000000Z
+a5dd52413eba6550b5ea713f93db2e27
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+prova_menu.css
+file
+
+
+
+
+2007-08-14T23:59:04.000000Z
+f269fe5a10f96f96350ada9909bddf62
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+cores.txt
+file
+
+
+
+
+2007-05-28T20:05:10.000000Z
+e65a1c127475a381cdb455708c3ca99a
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

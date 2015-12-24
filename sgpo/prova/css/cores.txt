@@ -1,0 +1,24 @@
+AZUL
+#174FA6
+
+AMARELO
+#F3B73D
+
+LARANJA
+#F1A943
+
+
+
+----------------
+
+Azul
+#205D8A
+
+otro azul
+#97D3F3
+
+fund logo
+#D7E5F0
+
+fund logo2
+#9AB9D6

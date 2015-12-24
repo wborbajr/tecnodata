@@ -1,0 +1,180 @@
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+body {background:#080808;}
+
+/** GERAL **/
+#geral {
+	background:url('../img/base.jpg') no-repeat;
+	width:770px;
+	height:587px;
+	margin:5px auto;
+}
+
+#geral2 {
+	background:url('../img/login.jpg') no-repeat;
+	width:770px;
+	height:587px;
+	margin:5px auto;
+}
+
+/** LOGO **/
+h1 a {
+	display:block;
+	width:250px;
+	height:60px;
+	text-indent:-999px;
+	overflow:hidden;
+	margin:15px 0 20px 0;
+}
+
+/** MENSAGENS **/
+#logs {
+	display:block;
+	width:80px;
+	height:18px;
+	float:right;
+	margin-top:35px;
+	font:12px Verdana, Arial, Helvetica;
+	color:#FFF;
+	background-color:#F00;
+	padding-top:5px;
+	text-align:center;
+}
+
+/** TÍTULOS **/
+#titulo {
+	display:block;
+	width:200px;
+	height:20px;
+	float:right;
+	margin:30px 100px 0 0;
+	*margin:15px 50px 0 0;
+	font:bold 18px Verdana, Arial, Helvetica;
+	color:#FFF;
+	text-align:right;
+}
+
+/** CONTEUDO **/
+#conteudo {
+	width:610px;
+	margin:80px 0 0 70px;
+	*width:600px;
+	*margin:70px 0 0 67px;
+	color:#FFF;
+}
+
+#conteudo2 {
+	width:365px;
+	margin:195px 0 0 231px;
+	*margin:179px 0 0 231px;
+	color:#FFF;
+}
+
+/** CLASSES **/
+.conteudo{
+	font:bold 12px Verdana, Arial, Helvetica;
+	color:#FFF;
+}
+
+.login{
+	font:bold 10px Verdana, Arial, Helvetica;
+	color:#FF0;
+	text-decoration:none;
+}
+
+.login:hover{
+	font:bold 10px Verdana, Arial, Helvetica;
+	color:#F00;
+	text-decoration:none;
+}
+
+.titulo{
+	font:bold 10px Verdana, Arial, Helvetica;
+	color:#FFF;
+	background-color:#858585;
+	padding: 2px;
+}
+
+.tabela{
+	font:bold 12px Verdana, Arial, Helvetica;
+	color:#000;
+	background-color:#FFF;
+	padding: 5px;
+	border:1px solid black;
+}
+
+/** BOTOES **/
+.botaoP{
+	font: bold 12px Verdana, Arial, Helvetica;
+	color:#FFF;
+	width: 47px;
+	height:19px;
+	display: block;
+	padding-left: 6px;
+	padding-top:2px;
+	text-decoration: none;
+	background:url('../img/botconjpqn.gif') no-repeat;
+}
+
+.botaoP:hover {
+	font: bold 12px Verdana, Arial, Helvetica; 
+	background:url('../img/botconjpqn.gif') no-repeat 0 -21px;
+}
+
+.botaoP2{
+	font: bold 10px Verdana, Arial, Helvetica;
+	color:#FFF;
+	width: 59px;
+	height:19px;
+	display: block;
+	padding-left: 3px;
+	padding-top:3px;
+	text-decoration: none;
+	background:url('../img/botconjpqn2.gif') no-repeat;
+}
+
+.botaoP2:hover {
+	font: bold 10px Verdana, Arial, Helvetica; 
+	background:url('../img/botconjpqn2.gif') no-repeat 0 -21px;
+}
+
+.botaoG{
+	font: bold 12px Verdana, Arial, Helvetica;
+	color:#FFF;
+	width: 378px;
+	height:22px;
+	display: block;
+	padding-left: 8px;
+	padding-top:9px;
+	text-decoration: none;
+	background:url('../img/botconjungnd.gif') no-repeat;
+}
+
+.botaoG:hover {
+	font: bold 12px Verdana, Arial, Helvetica; 
+	background:url('../img/botconjungnd.gif') no-repeat 0 -31px;
+}
+
+.botaovideo{
+	text-indent:-999px;
+	overflow:hidden;
+	width: 131px;
+	height:126px;
+	display: block;
+	text-decoration: none;
+	background:url('../img/b.jpg') no-repeat;
+}
+
+.botaosimulado{
+	text-indent:-999px;
+	overflow:hidden;
+	width: 131px;
+	height:126px;
+	display: block;
+	text-decoration: none;
+	background:url('../img/a.jpg') no-repeat;
+}

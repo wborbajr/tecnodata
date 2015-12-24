@@ -1,0 +1,1 @@
+<?php /* pivot */ die(); ?>a:1:{i:0;a:9:{s:4:"name";s:3:"Bob";s:5:"email";s:0:"";s:3:"url";s:23:"http://www.pivotlog.net";s:4:"date";s:16:"2007-01-31-20-54";s:7:"comment";s:42:"Hi! And this is what a comment looks like!";s:4:"code";i:1;s:5:"title";s:14:"Pivot 1.40.1..";s:8:"category";a:1:{i:0;s:7:"default";}s:2:"ip";s:9:"127.0.0.1";}}

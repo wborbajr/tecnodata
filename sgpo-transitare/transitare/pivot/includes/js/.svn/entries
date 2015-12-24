@@ -1,0 +1,79 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/transitare/pivot/includes/js
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+gettbkey.php
+file
+
+
+
+
+2008-03-18T14:19:03.421875Z
+7b14d8fee911e6694bc5331030aaf9df
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+cropper
+dir
+
+index.html
+file
+
+
+
+
+2008-03-18T14:19:03.421875Z
+9b6102a2abdbc773775193cae3bf9a95
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+jquery.js
+file
+
+
+
+
+2008-03-18T14:19:03.437500Z
+9c1829e9d1862350155f551d27cde34f
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+switch.js
+file
+
+
+
+
+2008-03-18T14:19:03.453125Z
+562871d91f5c71a9e645a3817dd5bae6
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

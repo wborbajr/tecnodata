@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style3 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.style5 {font-family: "Courier New", Courier, monospace; font-size: 12px; }
+-->
+</style>
+</head>
+
+<body>
+&nbsp;
+<table border="1">
+    <tbody>
+        <tr>
+            <td><span class="style3">data type</span></td>
+            <td><span class="style3">regular expression</span></td>
+            <td><span class="style3">accepts</span></td>
+            <td><span class="style3">rejects</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">whitespace</span></td>
+            <td><span class="style5">/^\s+$/</span></td>
+            <td><span class="style3">spaces, tabs, etc.</span></td>
+            <td><span class="style3">0 a</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">single letter</span></td>
+            <td><span class="style5">/^[a-zA-Z]$/</span></td>
+            <td><span class="style3">a A</span></td>
+            <td><span class="style3">0 . -</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">alphabetic string</span></td>
+            <td><span class="style5">/^[a-zA-Z]+$/</span></td>
+            <td><span class="style3">aAbB</span></td>
+            <td><span class="style3">a1 23</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">single digit</span></td>
+            <td><span class="style5">/^\d/</span></td>
+            <td><span class="style3">0</span></td>
+            <td><span class="style3">00 1a</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">single letter or digit</span></td>
+            <td><span class="style5">/^([a-zA-Z]|\d)$/</span></td>
+            <td><span class="style3">0 a</span></td>
+            <td><span class="style3">00 1a</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">alphanumeric string</span></td>
+            <td><span class="style5">/^[a-zA-Z0-9]+$/</span></td>
+            <td><span class="style3">a1b2</span></td>
+            <td><span class="style3">2.5 1.a</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">integer</span></td>
+            <td><span class="style5">/^\d+$/</span></td>
+            <td><span class="style3">0 23</span></td>
+            <td><span class="style3">23.5</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">signed integer</span></td>
+            <td><span class="style5">/^(+|-)?\d+$/</span></td>
+            <td><span class="style3">-1 +12</span></td>
+            <td><span class="style3">-1.1</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">floating point number</span></td>
+            <td><span class="style5">/^((\d+(\.\d*)?)|((\d*\.)?\d+))$/</span></td>
+            <td><span class="style3">1.1&nbsp;&nbsp;&nbsp; .9&nbsp;&nbsp;&nbsp;&nbsp; 8.</span></td>
+            <td><span class="style3">-1.1&nbsp; .</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">signed float</span></td>
+            <td><span class="style5">/^(((+|-)?\d+(\.\d*)?)|((+|-)?(\d*\.)?\d+))$/</span></td>
+            <td><span class="style3">-1.1&nbsp;&nbsp; 1.1&nbsp; .9&nbsp;&nbsp; 8.</span></td>
+            <td><span class="style3">1a</span></td>
+        </tr>
+        <tr>
+            <td><span class="style3">email address</span></td>
+            <td><span class="style5">/^.+\@.+\..+$/</span></td>
+            <td><span class="style3">a@b.c</span></td>
+            <td><span class="style3">a@b</span></td>
+        </tr>
+    </tbody>
+</table>
+ 
+</body>
+</html>

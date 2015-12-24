@@ -1,0 +1,34 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/old/simu
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+simulado.php
+file
+
+
+
+
+2007-07-19T07:54:54.000000Z
+6b7ebb75543afe22442cd9cdff7c28b4
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+images
+dir
+
+css
+dir
+

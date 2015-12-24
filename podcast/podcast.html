@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+-->
+</style></head>
+
+<body>
+
+<!-- Pesquisa de podcast antigos -->
+<div id="dv_conteudo" style="display:none">
+	<table width="700" border="0" cellpadding="0" cellspacing="0">
+	  <tr valign="top">
+	    <td><a href="#" id="lnkVoltar">Voltar</a></td>
+	  </tr>
+	  <tr valign="top">
+	    <td>Selecione a &Aacute;rea
+			<form id="pesPod" name="pesPod">
+				<select name="select">
+					<option selected="selected">Selecione uma &aacute;rea</option>
+					<option value="1">Jornal do Tr&acirc;nsito</option>
+					<option value="2">Entrevista</option>
+					<option value="3">Reda&ccedil;&atilde;o R&aacute;dio Tr&acirc;nsito</option>
+				</select>
+				<input name="btBusca" type="button" id="btBusca" value="Buscar" /></td>
+			</form>
+	  </tr>
+	  <tr valign="top">
+	    <td>&nbsp;</td>
+	  </tr>
+	  <tr valign="top">
+	    <td>&nbsp;</td>
+	  </tr>
+	</table>
+	
+	<!-- Resultado da pesquisa dos podcasts-->
+	<table width="215" border="0" cellpadding="0" cellspacing="0" >
+	      <tr align="center">
+	        <td align="center" colspan="3"><img src="img/icojornal.png"  /></td>
+	      </tr>
+		  
+		  <tbody id="pes_jornal">
+	      <tr>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;<br /></td>
+	        <td>&nbsp;</td>
+	      </tr>
+		  </tbody>
+		  <tr>
+			<td>&nbsp;  </td>
+		  </tr>
+		  <tr>
+			<td>  </td>
+		  </tr>
+		</table>
+		
+		</td>
+	    <td>
+		
+		<table width="215" border="0" cellpadding="0" cellspacing="0" >
+	      <tr>
+	        <td align="center" colspan="3"><img src="img/entrevistas.png"  /></td>
+	      </tr>
+		  
+		  <tbody id="pes_entrevista">
+	      <tr>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;<br /></td>
+	        <td>&nbsp;</td>
+	      </tr>
+		  </tbody>
+		  <tr>
+			<td>&nbsp;  </td>
+		  </tr>
+		  <tr>
+			<td>  </td>
+		  </tr>
+	    </table>
+		
+		</td>
+		
+	    <td>	
+		<table width="215" border="0" cellpadding="0" cellspacing="0" >
+	      <tr>
+	        <td align="center" colspan="3"><img src="img/iconeredacao.png" /></td>
+	      </tr>
+		  
+		  <tbody id="pes_redacao">
+	      <tr>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;<br /></td>
+	        <td>&nbsp;</td>
+	      </tr>
+		  </tbody>
+		  <tr>
+			<td>&nbsp;  </td>
+		  </tr>
+		  <tr>
+			<td>  </td>
+		  </tr>
+	    </table>
+		
+		</td>
+	  </tr>
+	</table>
+	<!-- -->
+	
+</div>
+<!-- -->
+
+<!-- Lista os ultimos podcasts -->
+<div id="dv_podcast">
+	<table width="700" border="0" cellpadding="0" cellspacing="0">
+	  <tr valign="top">
+	    <td>
+		
+		<table width="215" border="0" cellpadding="0" cellspacing="0" >
+	      <tr align="center">
+	        <td align="center" colspan="3"><img src="img/icojornal.png"  /></td>
+	      </tr>
+		  
+		  <tbody id="tb_jornal">
+	      <tr>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;<br /></td>
+	        <td>&nbsp;</td>
+	      </tr>
+		  </tbody>
+		  <tr>
+			<td>&nbsp;  </td>
+		  </tr>
+		  <tr>
+			<td> <a href="#" id="maispod1">Mais Podcast</a> </td>
+		  </tr>
+		</table>
+		
+		</td>
+	    <td>
+		
+		<table width="215" border="0" cellpadding="0" cellspacing="0" >
+	      <tr>
+	        <td align="center" colspan="3"><img src="img/entrevistas.png"  /></td>
+	      </tr>
+		  
+		  <tbody id="tb_entrevista">
+	      <tr>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;<br /></td>
+	        <td>&nbsp;</td>
+	      </tr>
+		  </tbody>
+		  <tr>
+			<td>&nbsp;  </td>
+		  </tr>
+		  <tr>
+			<td> <a href="#" id="maispod2">Mais Podcast</a> </td>
+		  </tr>
+	    </table>
+		
+		</td>
+		
+	    <td>	
+		<table width="215" border="0" cellpadding="0" cellspacing="0" >
+	      <tr>
+	        <td align="center" colspan="3"><img src="img/iconeredacao.png" /></td>
+	      </tr>
+		  
+		  <tbody id="tb_redacao">
+	      <tr>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;<br /></td>
+	        <td>&nbsp;</td>
+	      </tr>
+		  </tbody>
+		  <tr>
+			<td>&nbsp;  </td>
+		  </tr>
+		  <tr>
+			<td> <a href="#" id="maispod3">Mais Podcast</a> </td>
+		  </tr>
+	    </table>
+		
+		</td>
+	  </tr>
+	</table>
+</div>
+<!-- -->
+
+</body>
+</html>
+
+<script type="text/javascript" src="jq/jquery.js"></script>
+<script type="text/javascript" src="jq/jquery.form.js"></script>
+<script type="text/javascript" src="jq/jquery.metadata.js"></script>
+<script type="text/javascript" src="jq/jquery.media.js"></script>
+<script type="text/javascript" src="podcast.js"></script>
+

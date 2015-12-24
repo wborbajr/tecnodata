@@ -1,0 +1,145 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/transitare/pivot/db
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+ser-archives.php
+file
+
+
+
+
+2008-03-18T14:18:57.937500Z
+00657bbdc13a0012189253241aff87d8
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+blocked_ips.txt.php
+file
+
+
+
+
+2008-03-18T14:18:57.953125Z
+a7be594cc1014d7ca79e3ba0f7b4973e
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+rsscache
+dir
+
+ser_tags.php
+file
+
+
+
+
+2008-03-18T14:18:57.984375Z
+f1c5c7a2a42e24436b4a2ce437846f05
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+standard-00000
+dir
+
+users
+dir
+
+tbkeys
+dir
+
+ignored_domains.txt.php
+file
+
+
+
+
+2008-03-18T14:18:57.953125Z
+65efa9771b66d5b4d2d750f0b028cc31
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+tagdata
+dir
+
+search
+dir
+
+ser-cats.php
+file
+
+
+
+
+2008-03-18T14:18:57.953125Z
+6f541fd159f532ce0757f984e852f178
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+refkeys
+dir
+
+index.html
+file
+
+
+
+
+2008-03-18T14:18:57.968750Z
+9b6102a2abdbc773775193cae3bf9a95
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+ser-dates.php
+file
+
+
+
+
+2008-03-18T14:18:57.968750Z
+72d685367936fd80c64efa571c79d891
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+ser_lastcomm.php
+file
+
+
+
+
+2008-03-18T14:18:57.984375Z
+9f0b7ad34ff82ba6afb269a73531bc89
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

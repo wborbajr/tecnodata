@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" [[lang:xml]] [[lang:html]]>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=[[charset]]" />
+	<title>[[weblogtitle]] - [[weblogsubtitle]]</title>
+	<link href="[[template_dir]]pivot_essentials.css" rel="stylesheet" type="text/css" />
+	<link href="[[template_dir]]pivot_default.css" rel="stylesheet" type="text/css" />
+	[[ thickbox:head ]]
+</head>
+
+<body>
+	<div id="content">
+		<div id="header">
+			
+			<h1 class="pagetitleshade">
+				<a href="[[home]]" accesskey="1">[[weblogtitle]]</a>
+			</h1>
+
+			<h1 class="pagetitle">
+				<a href="[[home]]">[[weblogtitle]]</a>
+			</h1>
+			
+		</div>
+
+		<div id="secondary3">
+
+			<h3>[[label:about]]</h3>
+			<p>This is the default template for 
+				<a href="http://www.pivotlog.net" title="Pivot: a GPL weblog tool.">Pivot</a>. 
+				You can change this text by editing the file <em>frontpage_template.html</em> 
+				in your pivot/templates/ folder. You can do this by directly editing the file, 
+				or you can go to Administration &raquo; Templates in the Pivot interface.
+			</p> 
+			<p>The image in the header is &copy; 
+			<a href="http://www.flickr.com/photos/andidfl/" title="Flickr: Photos from Andreas Reinhold">Andreas Reinhold.</a>
+			</p> 
+
+			<h3>[[label:archives]]</h3>
+			[[archive_list]]
+
+			<h3>[[label:links]]</h3>
+			[[link_list]]
+
+			<h3>[[label:search]]</h3>
+			[[search]]
+
+			<h3>[[label:last_comments]]</h3>
+			[[last_comments]]
+
+			<h3>[[label:stuff]]</h3>
+			[[pivotbutton]]&nbsp;<br />
+			[[rssbutton]]&nbsp;<br />
+			[[atombutton]]&nbsp;
+			
+		</div>
+
+		<div id="entries3">
+			<div class="entry">
+							
+				<p class="entrynavigation">
+					[[previousentry: &laquo;  <a href="%link%">%title%</a>]] | 
+			  		<a href="[[home]]">Home</a> | 
+					[[nextentry: <a href="%link%">%title%</a> &raquo; ]]
+				</p>							
+								
+				<h2>
+					<a href="[[entrylink]]">[[title]]</a>
+				</h2>
+				
+				<span class="date">
+		            [[ fulldate ]]
+		            [[ editlink ]]
+		        </span>	
+				
+				[[introduction]] 
+				
+				[[body]]
+				
+				<span class="tags">[[tags]]</span>
+				
+				<br />
+
+				<div class="commentblock">
+					
+					<span class="comments">[[commcount]]</span>
+
+					<div class="message">
+						[[comments]]
+					</div>
+					<br />
+					
+					[[trackbacks]] 
+					
+					[[tracklink]] 
+					
+					[[message]] 
+					
+					[[commentform]]
+					
+				</div>
+			</div>
+		</div>
+
+		<div id="linkdump3">
+
+			<p class="entrynavigation">&nbsp;</p>
+
+			<h3>[[label:linkdump]]</h3>
+			[[subweblog:linkdump]]
+
+		</div>
+
+		<div style="clear:both">
+			&nbsp;
+		</div>
+
+	</div>
+	<br />
+</body>
+</html>
+

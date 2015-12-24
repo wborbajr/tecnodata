@@ -1,0 +1,10 @@
+<html>
+<body>
+<!--Portal do Transito Widgets - widgets.portaldotransito.com.br -->
+<div class="PODCASTWidgetsStyle">
+<script src="http://localhost/web/tec-widget100/podcastwidgetstools.js" type="text/javascript"></script>
+<a href="http://localhost/web/tec-podcast101/podcast.html" target="_blank">Mais Podcast</a>
+</div>
+<!--//Portal do Transito Widgets-->
+</body>
+</html>

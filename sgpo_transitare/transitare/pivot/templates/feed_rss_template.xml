@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="%charset%"?>
+<rss version="2.0">
+	
+	<channel>
+		<title>%title%</title>
+		<link>%link%</link>
+		<description>%description%</description>
+		<language>%lang%</language>
+		<managingEditor>%admin-email%</managingEditor>
+                <copyright>Copyright %year%</copyright>
+		<generator>Pivot %version%</generator>
+		<pubDate>%date_rfc%</pubDate>
+		<ttl>60</ttl>
+		<image>
+			<link>%link%</link>
+			<title>%title%</title>
+			<url>%image%</url>
+		</image>
+		
+		------
+		
+		<item>
+			<title>%title%</title>
+			<link>%link%</link>
+			<comments>%link%#comm</comments>
+                        <description><![CDATA[ %description% ]]></description>
+			<guid isPermaLink="false">%guid%</guid>
+			<category>%category%</category>
+			<pubDate>%date_rfc%</pubDate>
+		</item>
+		
+		------
+		
+	</channel>
+</rss>

@@ -1,0 +1,58 @@
+8
+
+dir
+10
+svn://192.168.0.9/projetosWEB/imagegallery/jquery.lightbox/_HT_
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T13:59:52.962276Z
+7
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+extend_arquivos
+dir
+
+howtouse.html
+file
+
+
+
+
+2008-03-18T14:12:43.000000Z
+708208c352af91f54d4c1b412ecb0c04
+2008-03-18T13:59:52.962276Z
+7
+waldir
+
+howtouse_arquivos
+dir
+
+extend.html
+file
+
+
+
+
+2008-03-18T14:12:43.000000Z
+e3e057412839d1a065418c649d26f478
+2008-03-18T13:59:52.962276Z
+7
+waldir
+

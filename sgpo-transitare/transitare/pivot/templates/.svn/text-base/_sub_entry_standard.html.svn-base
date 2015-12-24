@@ -1,0 +1,23 @@
+
+	<!-- entry '[[title]]' -->
+	<div class="entry">
+		<h2>
+			<a href="[[entrylink]]">[[title]]</a>
+		</h2>
+		
+		<span class="date">
+            [[fulldate: %dayname% %day% %monthname% %year% at %hour12%&#58;%minute% %ampm%]]
+            [[ editlink : - Edit ]]
+        </span>
+		
+		[[introduction]] 
+		
+		[[more]]
+
+		<div class="entryfooter">
+			<span class="meta">[[user:emailtonick]] | [[trackbacklink]] | [[permalink:&para;:Permanent link to '%title%' in the archives]]</span>
+			<span class="comments">[[commentlink]]</span> 
+			<span class="tags">[[tags]]</span>
+		</div>
+		
+	</div>

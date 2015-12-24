@@ -1,0 +1,70 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008/sgi
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+main.js.php
+file
+
+
+
+
+2008-01-08T11:10:06.250000Z
+8a29e938b7807be45a9cc1fa42de60ec
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+enquete
+dir
+
+widgets
+dir
+
+index.php
+file
+
+
+
+
+2008-01-08T11:10:06.250000Z
+c73eb1d1a60aecfec59b25713250ac7f
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+widgets.htm
+file
+
+
+
+
+2008-01-08T11:10:06.328125Z
+dd3bbd190456d0d3fcc454470b7536e3
+2008-01-08T11:11:31.913212Z
+20
+waldir
+

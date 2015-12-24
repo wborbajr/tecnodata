@@ -1,0 +1,34 @@
+# MySQL-Front 3.1  (Build 7.1)
+
+
+# Host: Local    Database: provaeletronica
+# ------------------------------------------------------
+# Server version 5.0.15-nt
+
+CREATE DATABASE `provaeletronica`;
+
+
+#
+# Table structure for table assuntos
+#
+
+CREATE TABLE `assuntos` (
+  `codAssunto` int(10) unsigned NOT NULL auto_increment,
+  `codDisciplina` varchar(80) default NULL,
+  `assunto` varchar(255) default NULL,
+  PRIMARY KEY  (`codAssunto`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+#
+# Dumping data for table assuntos
+#
+
+INSERT INTO `assuntos` VALUES (1,NULL,'Introdução');
+
+INSERT INTO `assuntos` VALUES (2,NULL,'Código de trânsito brasileiro');
+
+INSERT INTO `assuntos` VALUES (3,NULL,'Direitos e deveres do cidadão no trânsito');
+
+INSERT INTO `assuntos` VALUES (4,NULL,'Sistema nacional de trânsito');
+

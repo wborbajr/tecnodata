@@ -1,0 +1,72 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/SGPO_0.0.1
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+sgi
+dir
+
+sgi.zip
+file
+
+
+
+
+2008-03-18T14:18:15.203125Z
+9081eb903542a2c11356544ad5842721
+2008-03-18T14:09:16.885140Z
+12
+waldir
+has-props
+
+sgpo
+dir
+
+sgpo.zip
+file
+
+
+
+
+2008-03-18T14:18:16.078125Z
+aa8a4a89acd692afd2a346bb807923c5
+2008-03-18T14:09:16.885140Z
+12
+waldir
+has-props
+
+index.php
+file
+
+
+
+
+2008-03-18T14:18:16.093750Z
+7f8de61baa411a18b8e5a0098a9efc3c
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

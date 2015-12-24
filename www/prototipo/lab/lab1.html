@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--
+***************************************************************************
+* ASP Football Pool                                                       *
+*                                                                         *
+* Do not remove this notice.                                              *
+*                                                                         *
+* Copyright 1999-2004 by Mike Hall                                        *
+* Please see http://www.brainjar.com for documentation and terms of use.  *
+***************************************************************************
+-->
+<head>
+<title>Football Pool: Entry Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="titleBar">
+<div id="status">
+
+Welcome Admin
+&middot;
+
+Eastern Time: Friday, November 15, 2002&nbsp;5:39:13 AM
+</div>
+<div id="title">Football Pool</div>
+</div>
+
+<div class="menuBar">
+<a href="default.asp"   title="News, announcements and updates.">Home</a> |
+<a href="entry.asp"     title="Enter your picks for this week or upcoming weeks.">Entry Form</a> &middot;
+
+<a href="results.asp"   title="View the current status or outcome of each week's pool.">Results</a> &middot;
+<a href="summary.asp"   title="Weekly winners and individual statistics.">Summary</a> |
+<a href="weekly.asp"    title="Week by week game schedule.">Weekly Schedule</a> &middot;
+<a href="team.asp"      title="Team by team game schedule.">Team Schedules</a> &middot;
+<a href="standings.asp" title="League standings.">Standings</a> |
+<a href="password.asp"  title="Change your password.">Change Password</a> &middot;
+
+<a href="logout.asp"    title="Logout or login as a different user.">Login/Logout</a> |
+<a href="help.asp"      title="Pool rules and helpful information.">Help</a>
+</div>
+
+<div class="menuBar">
+<a href="scores.asp"   title="Enter or change game results.">Enter Scores</a> |
+<a href="users.asp"    title="Add and remove users or change passwords.">Update Users</a>
+</div>
+
+
+<div id="main">
+
+<table id="wrapper"><tr><td>
+<p class="error">User 'Admin' may not enter picks.</p>
+
+<form action="/asp/pool/demo/entry.asp" method="post">
+<div><input name="week" type="hidden" value="13" /></div>
+<table class="main" cellpadding="0" cellspacing="0">
+<tr>
+  <th align="left" colspan="9">Week 13</th>
+</tr>
+
+<tr align="right">
+
+  <td>Thu</td>
+
+  <td>11/28</td>
+  <td>12:30 pm</td>
+
+  <td>New England</td>
+  <td align="center"><input class="radio" name="pick-177" type="radio" value="NE"  /></td>
+  <td>at Detroit</td>
+  <td align="center"><input class="radio" name="pick-177" type="radio" value="DET"  /></td>
+
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-177" type="radio" value="Tie"  checked="checked" /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Thu</td>
+  <td>11/28</td>
+  <td>4:05 pm</td>
+
+  <td>Washington</td>
+  <td align="center"><input class="radio" name="pick-178" type="radio" value="WAS"  /></td>
+  <td>at Dallas</td>
+  <td align="center"><input class="radio" name="pick-178" type="radio" value="DAL"  checked="checked" /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-178" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>1:00 pm</td>
+
+  <td>Arizona</td>
+
+  <td align="center"><input class="radio" name="pick-179" type="radio" value="ARZ"  checked="checked" /></td>
+  <td>at Kansas City</td>
+  <td align="center"><input class="radio" name="pick-179" type="radio" value="KC"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-179" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>1:00 pm</td>
+
+  <td>Atlanta</td>
+  <td align="center"><input class="radio" name="pick-180" type="radio" value="ATL"  /></td>
+  <td>at Minnesota</td>
+
+  <td align="center"><input class="radio" name="pick-180" type="radio" value="MIN"  checked="checked" /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-180" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right">
+
+  <td>Sun</td>
+  <td>12/1</td>
+
+  <td>1:00 pm</td>
+
+  <td>Baltimore</td>
+  <td align="center"><input class="radio" name="pick-181" type="radio" value="BAL"  /></td>
+  <td>at Cincinnati</td>
+  <td align="center"><input class="radio" name="pick-181" type="radio" value="CIN"  /></td>
+  <td>Tie</td>
+
+  <td align="center"><input class="radio" name="pick-181" type="radio" value="Tie"  checked="checked" /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>1:00 pm</td>
+
+  <td>Carolina</td>
+  <td align="center"><input class="radio" name="pick-182" type="radio" value="CAR"  /></td>
+  <td>at Cleveland</td>
+  <td align="center"><input class="radio" name="pick-182" type="radio" value="CLE"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-182" type="radio" value="Tie"  checked="checked" /></td>
+
+</tr>
+
+<tr align="right">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>1:00 pm</td>
+
+  <td>Chicago</td>
+  <td align="center"><input class="radio" name="pick-183" type="radio" value="CHI"  /></td>
+
+  <td>at Green Bay</td>
+  <td align="center"><input class="radio" name="pick-183" type="radio" value="GB"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-183" type="radio" value="Tie"  checked="checked" /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Sun</td>
+
+  <td>12/1</td>
+  <td>1:00 pm</td>
+
+  <td>Miami</td>
+  <td align="center"><input class="radio" name="pick-184" type="radio" value="MIA"  /></td>
+  <td>at Buffalo</td>
+  <td align="center"><input class="radio" name="pick-184" type="radio" value="BUF"  /></td>
+
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-184" type="radio" value="Tie"  checked="checked" /></td>
+
+</tr>
+
+<tr align="right">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>1:00 pm</td>
+
+  <td>Pittsburgh</td>
+  <td align="center"><input class="radio" name="pick-185" type="radio" value="PIT"  /></td>
+  <td>at Jacksonville</td>
+  <td align="center"><input class="radio" name="pick-185" type="radio" value="JAX"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-185" type="radio" value="Tie"  checked="checked" /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>1:00 pm</td>
+
+  <td>Tennessee</td>
+
+  <td align="center"><input class="radio" name="pick-186" type="radio" value="TEN"  /></td>
+  <td>at N.Y. Giants</td>
+  <td align="center"><input class="radio" name="pick-186" type="radio" value="NYG"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-186" type="radio" value="Tie"  checked="checked" /></td>
+
+</tr>
+
+<tr align="right">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>4:05 pm</td>
+
+  <td>Denver</td>
+  <td align="center"><input class="radio" name="pick-187" type="radio" value="DEN"  /></td>
+  <td>at San Diego</td>
+
+  <td align="center"><input class="radio" name="pick-187" type="radio" value="SD"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-187" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Sun</td>
+  <td>12/1</td>
+
+  <td>4:05 pm</td>
+
+  <td>Houston</td>
+  <td align="center"><input class="radio" name="pick-188" type="radio" value="HOU"  /></td>
+  <td>at Indianapolis</td>
+  <td align="center"><input class="radio" name="pick-188" type="radio" value="IND"  /></td>
+  <td>Tie</td>
+
+  <td align="center"><input class="radio" name="pick-188" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>4:15 pm</td>
+
+  <td>Seattle</td>
+  <td align="center"><input class="radio" name="pick-189" type="radio" value="SEA"  /></td>
+  <td>at San Francisco</td>
+  <td align="center"><input class="radio" name="pick-189" type="radio" value="SF"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-189" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Sun</td>
+  <td>12/1</td>
+  <td>4:15 pm</td>
+
+  <td>St. Louis</td>
+  <td align="center"><input class="radio" name="pick-190" type="radio" value="STL"  /></td>
+
+  <td>at Philadelphia</td>
+  <td align="center"><input class="radio" name="pick-190" type="radio" value="PHI"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-190" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right">
+
+  <td>Sun</td>
+
+  <td>12/1</td>
+  <td>8:30 pm</td>
+
+  <td>Tampa Bay</td>
+  <td align="center"><input class="radio" name="pick-191" type="radio" value="TB"  /></td>
+  <td>at New Orleans</td>
+  <td align="center"><input class="radio" name="pick-191" type="radio" value="NO"  /></td>
+
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-191" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr align="right" class="alt">
+
+  <td>Mon</td>
+  <td>12/2</td>
+  <td>9:00 pm</td>
+
+  <td>N.Y. Jets</td>
+  <td align="center"><input class="radio" name="pick-192" type="radio" value="NYJ"  /></td>
+  <td>at Oakland</td>
+  <td align="center"><input class="radio" name="pick-192" type="radio" value="OAK"  /></td>
+  <td>Tie</td>
+  <td align="center"><input class="radio" name="pick-192" type="radio" value="Tie"  /></td>
+
+</tr>
+
+<tr><th align="left" colspan="9">Tie Breaker</th></tr>
+<tr>
+  <td align="right" colspan="9">
+
+
+  Total points in the Monday Night Football game:
+
+
+  <input name="tb" type="text" value="" size="3" />
+
+  </td>
+</tr>
+</table>
+
+<p><input class="button" type="submit" value="Submit" /></p>
+
+</form>
+
+
+<p><strong>Go to week:</strong>&nbsp;
+
+<a href="/asp/pool/demo/entry.asp?week=11">
+11</a>&nbsp;
+
+<a href="/asp/pool/demo/entry.asp?week=12">
+12</a>&nbsp;
+
+<a href="/asp/pool/demo/entry.asp?week=13">
+13</a>&nbsp;
+
+<a href="/asp/pool/demo/entry.asp?week=14">
+14</a>&nbsp;
+
+<a href="/asp/pool/demo/entry.asp?week=15">
+15</a>&nbsp;
+
+<a href="/asp/pool/demo/entry.asp?week=16">
+16</a>&nbsp;
+
+<a href="/asp/pool/demo/entry.asp?week=17">
+
+17</a>&nbsp;
+
+</p>
+</td></tr></table>
+</div>
+
+<div id="subTitle">Entry Form</div>
+<div id="copyright">
+<span id="contact">For help, contact
+<a href="mailto:admin@example.net">admin@example.net</a>.</span>
+&copy; 1999-2004 by <a href="http://www.brainjar.com">Mike Hall</a>. All
+rights reserved.</div>
+
+</body>
+</html>

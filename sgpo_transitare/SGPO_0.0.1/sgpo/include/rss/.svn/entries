@@ -1,0 +1,52 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/include/rss
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+rss_indice.inc.php
+file
+
+
+
+
+2005-06-09T15:00:00.000000Z
+724d7f1e4095f0be599ee98ce83bfbc9
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+lastRSS.php
+file
+
+
+
+
+2005-06-09T15:00:00.000000Z
+b9b789135f3ecfb29093ea2fc1316c72
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+index.php
+file
+
+
+
+
+2005-06-09T15:00:00.000000Z
+dcdad863a223be226b484bd9a92a7dec
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

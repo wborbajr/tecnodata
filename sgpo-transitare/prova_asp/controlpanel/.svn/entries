@@ -1,0 +1,115 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/prova_asp/controlpanel
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+bnq
+dir
+
+bilhetagem
+dir
+
+include
+dir
+
+clientes
+dir
+
+main.asp
+file
+
+
+
+
+2008-03-18T14:18:42.171875Z
+159614b64069512461431810c1b1652c
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+_vti_cnf
+dir
+
+domain.asp
+file
+
+
+
+
+2008-03-18T14:18:42.187500Z
+55f8a745cc95f136af45c0fb1696a45b
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+index.asp
+file
+
+
+
+
+2008-03-18T14:18:42.187500Z
+fb4b1903d529c529b89b3b8477f304c0
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+manutencao
+dir
+
+usuarios
+dir
+
+bechmark
+dir
+
+img
+dir
+
+lista.asp
+file
+
+
+
+
+2008-03-18T14:18:42.203125Z
+7d0ba7ca919cb061b8945277584bf349
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+main.aspx
+file
+
+
+
+
+2008-03-18T14:18:42.203125Z
+82c86582e9d212e23b1270620ae4a732
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

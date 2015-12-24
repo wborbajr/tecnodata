@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery lightBox plugin</title>
+
+	<link rel="stylesheet" type="text/css" href="../style-projects-jquery.css" />    
+    
+    <!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    <script type="text/javascript" src="jquery/jquery-1.2.3.min.js"></script>
+    <script type="text/javascript" src="jquery.lightbox/js/jquery.lightbox-0.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery.lightbox/css/jquery.lightbox-0.4.css" media="screen" />
+    <!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+    
+   	<style type="text/css">
+	/* jQuery lightBox plugin - Gallery style */
+	#gallery {
+		background-color: #444;
+		padding: 10px;
+		width: 520px;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 5px solid #3e3e3e;
+		border-width: 5px 5px 20px;
+	}
+	#gallery ul a:hover img {
+		border: 5px solid #fff;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	</style>
+</head>
+
+<body>
+
+<div id="gallery">
+	<!--
+    <ul>
+        <li>
+            <a href="photos/image1.jpg" title="Utilize a flexibilidade dos seletores da jQuery e crie um grupo de imagens como desejar. $('#gallery').lightBox();">
+                <img src="photos/thumb_image1.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+    </ul>
+	-->
+
+	<ul id="image_gallery">
+	</ul>
+	
+</div>
+
+</body>
+</html>
+
+<!-- charset para correcao de acentuacao vinda do JS -->
+<script type="text/javascript" charset="iso-8859-1" src="gallery.js"></script>

@@ -1,0 +1,16 @@
+
+Processos:
+
+  Tabelas:
+    - tecnodata:
+      - login
+      - senha
+
+    - cfcs
+      - login
+      - senha
+      - data
+
+    - candidatos
+
+

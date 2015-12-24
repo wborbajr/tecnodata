@@ -1,0 +1,43 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/sgpo/js
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+jquery.tabs
+dir
+
+jquery.js
+file
+
+
+
+
+2008-03-18T14:18:29.125000Z
+3860ed5cd3ff9a65879c768b9b3685d1
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

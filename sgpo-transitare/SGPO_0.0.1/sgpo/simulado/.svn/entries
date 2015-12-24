@@ -1,0 +1,193 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/SGPO_0.0.1/sgpo/simulado
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+include
+dir
+
+sql.php
+file
+
+
+
+
+2008-03-18T14:18:10.765625Z
+566707042be790bb3226b5d6194be8bb
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+relogio.htm
+file
+
+
+
+
+2008-03-18T14:18:10.781250Z
+1b7787432f07474c18f635d42aaddfe5
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+cronometro
+dir
+
+sql_arquivos
+dir
+
+css
+dir
+
+cadastre-se.inc.php
+file
+
+
+
+
+2008-03-18T14:18:10.796875Z
+aeabf926b69a788b1fbf6d01477da541
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+finaliza.inc.php
+file
+
+
+
+
+2008-03-18T14:18:10.796875Z
+8dd78ce8b27afea8bc31101185b5fdb2
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+index.php
+file
+
+
+
+
+2008-03-18T14:18:10.812500Z
+ce9bead184c173ae2f919a925ff1e4e7
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+cadastrar.inc.php
+file
+
+
+
+
+2008-03-18T14:18:10.812500Z
+09840d2d7ffa84981493005f27786085
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+doc
+dir
+
+images
+dir
+
+questoes.inc.php
+file
+
+
+
+
+2008-03-18T14:18:10.828125Z
+edf76153ac956b6852535865e7913655
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+iniciar_simulado.inc.php
+file
+
+
+
+
+2008-03-18T14:18:10.843750Z
+81fe63b36c205375b604e50f317707cf
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+main.php
+file
+
+
+
+
+2008-03-18T14:18:10.843750Z
+dbd328c19fb6ceff891082748841911b
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+index.html
+file
+
+
+
+
+2008-03-18T14:18:10.859375Z
+32f4f132d5bc1ee9e7bb316f84dc389e
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+autentica.inc.php
+file
+
+
+
+
+2008-03-18T14:18:10.859375Z
+1425260255e3755359e4efd49ebe0b04
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+js
+dir
+
+finalizado.inc.php
+file
+
+
+
+
+2008-03-18T14:18:10.859375Z
+5aa028a24e66628d5da0d9e8211b1f11
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

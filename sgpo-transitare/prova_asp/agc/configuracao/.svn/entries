@@ -1,0 +1,55 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/prova_asp/agc/configuracao
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+menu.asp
+file
+
+
+
+
+2008-03-18T14:18:52.812500Z
+baa1bb48b0c30e2c98e3fe2bf5ca5e0c
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+_vti_cnf
+dir
+
+index.asp
+file
+
+
+
+
+2008-03-18T14:18:52.828125Z
+d1b2623b5b4279d18bf43719f92fd9cb
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

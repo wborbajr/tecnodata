@@ -1,0 +1,52 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/tecnodata/bnq/doc
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+sgpo (server prova).sql
+file
+
+
+
+
+2007-08-20T11:28:46.000000Z
+ce3cde1a26fdde490dfa24e3f64140c1
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+sgpo.sql
+file
+
+
+
+
+2007-08-10T23:42:10.000000Z
+4247242e65b7c6dd22118877a985b757
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+sgpo (server localhost).sql
+file
+
+
+
+
+2007-08-21T00:12:42.000000Z
+a60646fa75bf1e7719e917f65aa746a3
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

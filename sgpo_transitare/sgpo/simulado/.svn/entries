@@ -1,0 +1,175 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008/sgpo/simulado
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+include
+dir
+
+relogio.htm
+file
+
+
+
+
+2008-01-08T11:10:15.562500Z
+1b7787432f07474c18f635d42aaddfe5
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+cronometro
+dir
+
+css
+dir
+
+cadastre-se.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.578125Z
+aeabf926b69a788b1fbf6d01477da541
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+finaliza.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.578125Z
+ea46152ce4e5718f51e1e3c8a9b52ffb
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+cadastrar.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.609375Z
+09840d2d7ffa84981493005f27786085
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+config.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.609375Z
+c275ba36596d24d07fe1be42ce3aa5a5
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+images
+dir
+
+questoes.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.609375Z
+bf5e9a094588e808bcfcfff7aed9b941
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+iniciar_simulado.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.625000Z
+fc5b3e271546ab605ace532c26275c67
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+index.html
+file
+
+
+
+
+2008-01-08T11:10:15.640625Z
+32f4f132d5bc1ee9e7bb316f84dc389e
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+main.php
+file
+
+
+
+
+2008-01-08T11:10:15.640625Z
+dbd328c19fb6ceff891082748841911b
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+autentica.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.656250Z
+1425260255e3755359e4efd49ebe0b04
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+js
+dir
+
+finalizado.inc.php
+file
+
+
+
+
+2008-01-08T11:10:15.656250Z
+5aa028a24e66628d5da0d9e8211b1f11
+2008-01-08T11:11:31.913212Z
+20
+waldir
+

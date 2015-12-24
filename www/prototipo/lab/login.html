@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--
+***************************************************************************
+* ASP Football Pool                                                       *
+*                                                                         *
+* Do not remove this notice.                                              *
+*                                                                         *
+* Copyright 1999-2004 by Mike Hall                                        *
+* Please see http://www.brainjar.com for documentation and terms of use.  *
+***************************************************************************
+-->
+<head>
+<title>Football Pool: Login</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="titleBar">
+<div id="status">
+
+<span class="error">You are not logged in.</span>
+
+&middot;
+
+Eastern Time: Friday, November 15, 2002&nbsp;5:46:18 AM
+</div>
+<div id="title">Football Pool</div>
+</div>
+
+<div class="menuBar">
+<a href="default.asp"   title="News, announcements and updates.">Home</a> |
+<a href="entry.asp"     title="Enter your picks for this week or upcoming weeks.">Entry Form</a> &middot;
+
+<a href="results.asp"   title="View the current status or outcome of each week's pool.">Results</a> &middot;
+<a href="summary.asp"   title="Weekly winners and individual statistics.">Summary</a> |
+<a href="weekly.asp"    title="Week by week game schedule.">Weekly Schedule</a> &middot;
+<a href="team.asp"      title="Team by team game schedule.">Team Schedules</a> &middot;
+<a href="standings.asp" title="League standings.">Standings</a> |
+<a href="password.asp"  title="Change your password.">Change Password</a> &middot;
+
+<a href="logout.asp"    title="Logout or login as a different user.">Login/Logout</a> |
+<a href="help.asp"      title="Pool rules and helpful information.">Help</a>
+</div>
+
+
+<div id="main">
+<table id="wrapper"><tr><td>
+
+
+<form action="/asp/pool/demo/login.asp" method="post">
+<table class="main" cellpadding="0" cellspacing="0">
+<tr>
+  <th align="left">User Login</th>
+
+</tr>
+<tr><td>
+<div class="freeForm">
+
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><strong>Username:</strong></td>
+    <td>
+      <select name="username" size="1">
+        <option value="" selected="selected"></option>
+
+        <option value="Admin" >Admin</option>
+
+        <option value="Alvin" >Alvin</option>
+
+        <option value="Betty" >Betty</option>
+
+        <option value="Carl" >Carl</option>
+
+        <option value="Denise" >Denise</option>
+
+        <option value="Eric" >Eric</option>
+
+        <option value="Fran" >Fran</option>
+
+        <option value="George" >George</option>
+
+        <option value="Hellen" >Hellen</option>
+
+        <option value="Ira" >Ira</option>
+
+        <option value="Julie" >Julie</option>
+
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Password:</strong></td>
+
+    <td><input name="password" type="password" value="" size="12" /></td>
+  </tr>
+</table>
+
+<p>Select your name from the list,<br />
+enter your password and hit 'Login'.</p>
+
+</div>
+</td></tr>
+</table>
+
+<p><input class="button" type="submit" value="Login" />
+<input class="button" type="reset" value="Clear" onclick="this.form.elements['username'].selectedIndex = 0; this.form.elements['password'].value = ''; return false;" /></p>
+
+</form>
+
+</td></tr></table>
+</div>
+
+<div id="subTitle">Login</div>
+<div id="copyright">
+<span id="contact">For help, contact
+<a href="mailto:admin@example.net">admin@example.net</a>.</span>
+&copy; 1999-2004 by <a href="http://www.brainjar.com">Mike Hall</a>. All
+rights reserved.</div>
+
+</body>
+</html>

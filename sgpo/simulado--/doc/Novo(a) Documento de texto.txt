@@ -1,0 +1,10 @@
+
+
+sequencia do processo de validação:
+
+- Verifica:
+	- candidato;
+	- senha ( nula ou sem senha = sem permissão )
+	- procura por prova agendada para o candidato ( status da prova = 0 );
+	- recebe parâmentros do CLIENTE, para a prova;
+	- 

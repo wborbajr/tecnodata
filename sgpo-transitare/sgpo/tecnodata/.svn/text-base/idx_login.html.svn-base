@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Prova Eletrônica [Módulo Tecnodata]</title>
+<!-- Funçóes gerais de abstração de dados e tratamentos de telas -->
+
+<script language="javascript" src="../js/jquery.js"></script>
+<link href="../css/prova_branco.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<center>
+
+<div id="geral">
+	<div id="status">
+		<p>[ <a href="./">Fechar</a> ]</p>
+	</div>
+	<div id="topo" align="left">
+		<h1>Prova Eletrônica [Sistema Tecnodata]</h1>
+	</div>
+
+	<div id="div_cargando" style="display: none; position:absolute; left:910px; top:100px; width:69px; height:12px; z-index:1">
+		<table width="150" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#FF0000">
+		  <tr>
+			<td align="center"><font color="#FFFFFF" size="4"><b>Aguarde...</b></font></td>
+		  </tr>
+		</table>
+	</div>
+
+	</div>
+	<div id="corpo">
+
+		<div id="menu">
+			<ul>
+			  <li><a href="cliente.html">Cliente</a></li>
+			  <li><a href="bnqcad.html">BNQ</a></li>
+			  <li><a href="#">Bilhetagem</a></li>
+			  <li><a href="#">Simulado</a></li>
+			  <li><a href="#">Usuários</a></li>
+			</ul>		
+		</div>
+	
+	<div id="conteudo_meio" height="250">
+			Cone&uacute;do
+		</div>
+	</div>
+	
+	<p>&nbsp;</p>
+	
+	<div id="rodape">
+		<div id="boxrodape">
+			<div id="foot">
+				<!-- rodape -->
+			</div>
+		</div>
+		
+		<div id="info">
+			<!--info-->
+		</div>
+	</div>
+	
+</div>
+
+</center>
+
+</body>
+</html>
+<!-- Carrega tela de primeira identificação  -->
+<script language="javascript" src="./js/main.js.php"></script>

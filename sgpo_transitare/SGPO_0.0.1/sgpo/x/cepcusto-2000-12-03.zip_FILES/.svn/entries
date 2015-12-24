@@ -1,0 +1,52 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/x/cepcusto-2000-12-03.zip_FILES
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+demo.php
+file
+
+
+
+
+2007-07-17T22:02:20.000000Z
+2ae458031355336ceadf7ee1adb4be4b
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+cepcusto.php
+file
+
+
+
+
+2007-07-17T22:02:20.000000Z
+73f342785636df0c7a66f24b24afb022
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+cepcusto.dat
+file
+
+
+
+
+2007-07-17T22:02:20.000000Z
+306e0c789eda0074d24bc6a7eee1a2bb
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Sample Form</title>
+<script language="JavaScript">
+<!--
+function verify(form) {
+        if (form["Your-Name"].value == '') {
+                alert("You forgot to supply your name.");
+                return false;
+        }
+        if (form["Email-Address"].value == '') {
+                alert("You forgot to supply your email address.");
+                return false;
+        }
+        if (form["Phone-Number"].value == '') {
+                alert("You forgot to supply your phone number.");
+                return false;
+        }
+        var j = new RegExp();
+        j.compile("[A-Za-z0-9._-]+@[^.]+\..+");
+        if (!j.test(form["Email-Address"].value)) {
+                alert("You must supply a valid email address.");
+                return false;
+        }
+        j.compile("^[A-Za-z]+://[A-Za-z0-9-]+\.[A-Za-z0-9]+");
+        if (!j.test(form["URL"].value)) {
+                alert("You must supply a valid URL.");
+                return false;
+        }
+        j.compile("[0-9]{3}-[0-9]{3}-[0-9]{4}");
+        if (!j.test(form["Phone-Number"].value)) {
+                alert("You must supply a valid US phone number.");
+                return false;
+        }
+        return true;
+}
+//-->
+</script>
+</head>
+<body>
+<form action="script.pl" method="post" onSubmit="return verify(this);">
+<p>Your Name:
+<input name="Your-Name" type="text" size="20"></p>
+<p>Your Email Address:
+<input name="Email-Address" type="text" size="20"></p>
+<p>URL:
+<input name="URL" type="text" size="20"></p>
+<p>Your Phone Number:
+<input name="Phone-Number" type="text" size="20"></p>
+Comments:<br>
+<textarea name="Comments" cols="30" rows="4">
+Leave Comments Here
+</textarea>
+<p><input type="submit" value="Submit Form"></p>
+</form>
+</body>
+</html>

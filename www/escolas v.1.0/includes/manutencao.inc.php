@@ -1,0 +1,3 @@
+<?php
+	$manutencao = "false";
+?>

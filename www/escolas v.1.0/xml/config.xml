@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<core>
+  <sys>
+    <name>Educacional</name>
+    <version>1.0.0</version>
+    <author>Waldir Borba Junior</author>
+    <email>waldir@tecnodatacfc.com.br</email>
+    <title>:: Tecnodata Educacional ::.</title>
+  </sys>
+  <db>
+    <type>mysql</type>
+    <host>127.0.0.1</host>
+    <user>educacional</user>
+    <password>#educa</password>
+    <database>educacinoal</database>
+  </db>
+</core> 

@@ -1,0 +1,40 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgi/datas/cdate-2003-07-28
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+example.php
+file
+
+
+
+
+2007-08-07T15:41:58.000000Z
+9659e80180816ab85d0347d4d29970f7
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+cdate.php
+file
+
+
+
+
+2005-10-04T05:23:16.000000Z
+f90174d9f7ad101028455628c1cd3864
+2008-01-08T11:26:55.399734Z
+21
+waldir
+

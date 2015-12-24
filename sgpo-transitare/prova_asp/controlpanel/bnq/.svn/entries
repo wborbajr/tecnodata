@@ -1,0 +1,133 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/prova_asp/controlpanel/bnq
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+busca.asp
+file
+
+
+
+
+2008-03-18T14:18:36.000000Z
+7a7aff4c5676910f04ea4865b1dcfa50
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+lista_parametros_bd.asp
+file
+
+
+
+
+2008-03-18T14:18:36.031250Z
+8826c35e7a92c453f661f285a6b93ef7
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+funcoes
+dir
+
+lista_parametros_bd2.asp
+file
+
+
+
+
+2008-03-18T14:18:36.031250Z
+8d6d87e08f69733f2203537257f32e97
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+lista_bd_bnq.asp
+file
+
+
+
+
+2008-03-18T14:18:36.046875Z
+087377b4a471f407470a71e23d3432e4
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+lista_parametros_bd3.asp
+file
+
+
+
+
+2008-03-18T14:18:36.046875Z
+c1add7c0c87e34603b933fdde21499ae
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+lista_parametros_bd4.asp
+file
+
+
+
+
+2008-03-18T14:18:36.062500Z
+23d9283c3023d5e85959a91328786b46
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+lista_parametros_bd6.asp
+file
+
+
+
+
+2008-03-18T14:18:36.062500Z
+09c1b3041352a4b14933dd43e75a07f9
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+_vti_cnf
+dir
+
+questoes
+dir
+
+index.asp
+file
+
+
+
+
+2008-03-18T14:18:36.078125Z
+dd7d484ba5aec1cd2e5b60163f442d84
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

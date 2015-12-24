@@ -1,0 +1,88 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/transitare/pivot/includes/markdown
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+License.txt
+file
+
+
+
+
+2008-03-18T14:19:01.125000Z
+1d987ac5b205230d9feb627da7c66a0b
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+PHP Markdown Readme.txt
+file
+
+
+
+
+2008-03-18T14:19:01.140625Z
+d5aad7eebd165b5e0008cecd3bdb1539
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+markdown.php
+file
+
+
+
+
+2008-03-18T14:19:01.156250Z
+6b91c7ed629c65f7f89262c0303a0fdc
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+PHP SmartyPants Readme.txt
+file
+
+
+
+
+2008-03-18T14:19:01.156250Z
+09b4615a86ef39d78ec4203e00c7f790
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+smartypants.php
+file
+
+
+
+
+2008-03-18T14:19:01.171875Z
+a2d878879a249e38110da8cec5dcabdc
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

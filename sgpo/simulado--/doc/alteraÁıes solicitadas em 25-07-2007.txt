@@ -1,0 +1,17 @@
+
+
+cronograma:
+
+Simulador de provas:
+	- mudar a forma de entradas que será;
+		- email e senha;
+			- caso não haja, o candidato é obrigado a preencher um cadastro antes de proceguir.
+			- Após o preenchimento, segue a sequencia natural.
+		- mostrar tela com simulados realizados - Mauro Gil disse não haver a necessidade de guardar o simulado, como será feito na prova, mas somente o resumo do resultado: nr questões, tempo, qtd acertos, qtd erros, % resultado.
+			- nesta tela, link para que se faça outro simulado, caso o candidato ainda não tenha excedido a quantidade pré-estipulada.
+
+
+
+Administração de simulados:
+	- 
+

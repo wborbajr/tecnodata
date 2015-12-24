@@ -1,0 +1,133 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008/sgpo/prova/jquery
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+create-table.sql
+file
+
+
+
+
+2008-01-08T11:10:09.171875Z
+063fb9c8641feb207ede6ad4198345e7
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+css
+dir
+
+delete.php
+file
+
+
+
+
+2008-01-08T11:10:09.171875Z
+781c910e4425a047f16a1364c9e36f2d
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+update.php
+file
+
+
+
+
+2008-01-08T11:10:09.187500Z
+b17136a7f3a36e90f22699cf04eeb641
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+insert.php
+file
+
+
+
+
+2008-01-08T11:10:09.187500Z
+51b5b09963d3fa25ebcd4908e9f32ccb
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+db.php
+file
+
+
+
+
+2008-01-08T11:10:09.203125Z
+03761dec7ff75ddabcd1ec7835da56cb
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+readme.txt
+file
+
+
+
+
+2008-01-08T11:10:09.203125Z
+f543768bbd68750f5f12c006fe0fedfb
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+img
+dir
+
+js
+dir
+
+index.php
+file
+
+
+
+
+2008-01-08T11:10:09.218750Z
+7f6599108ee81fbde2f09e039630d39c
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+jqModal.css
+file
+
+
+
+
+2008-01-08T11:10:09.218750Z
+7cd9af5cf25309a19d85e7b602490ffa
+2008-01-08T11:11:31.913212Z
+20
+waldir
+

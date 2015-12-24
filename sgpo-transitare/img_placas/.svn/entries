@@ -1,0 +1,53 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/img_placas
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+regras de circula
+dir
+
+01
+dir
+
+02
+dir
+
+03
+dir
+
+img_placas.rar
+file
+
+
+
+
+2008-03-18T14:17:49.656250Z
+4f0fb1a641c999c2cd6039abadbeca14
+2008-03-18T14:09:16.885140Z
+12
+waldir
+has-props
+

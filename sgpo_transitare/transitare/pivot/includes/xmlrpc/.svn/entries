@@ -1,0 +1,79 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008/transitare/pivot/includes/xmlrpc
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+xmlrpc_wrappers.inc
+file
+
+
+
+
+2008-01-08T11:10:21.734375Z
+988dea727adafa6106f968e94b2be39f
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+xmlrpcs.inc
+file
+
+
+
+
+2008-01-08T11:10:21.750000Z
+eba586ee72165ba0be435012e3c3944b
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+compat
+dir
+
+index.html
+file
+
+
+
+
+2008-01-08T11:10:21.750000Z
+9b6102a2abdbc773775193cae3bf9a95
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+xmlrpc.inc
+file
+
+
+
+
+2008-01-08T11:10:21.765625Z
+77f5a039def9879a7a374203c9fe0594
+2008-01-08T11:11:31.913212Z
+20
+waldir
+

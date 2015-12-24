@@ -1,0 +1,28 @@
+<?
+	session_start();
+
+	$iOpcao			= $_REQUEST['iPos'];
+	$iDir 			= $_REQUEST['iDir'];
+	$iOpcao_checada = $_REQUEST['iOpcao_checada']-1;
+
+	// Direção / Navegação entre as questões
+	if (isset($iDir)) {
+		// $iDir pode ser negativo!!
+    	$_SESSION[iDirecao] = ( $_SESSION[iDirecao] + ($iDir) );
+
+    }
+
+    // Grava a opção selecionada para posterior restauração
+    if (isset($iOpcao_checada)) {
+    	// Desmarca todos
+    	for ($x = 0; $x < $_SESSION[prova][param_nr_alternativas]; $x++) {
+			$_SESSION[opcoes][$iOpcao][$x][3] = 0;
+		};
+
+		// Seta a opção escolhida
+		$_SESSION[opcoes][$iOpcao][$iOpcao_checada][3] = 1;
+	}
+
+echo $_SESSION[opcoes][$iOpcao][$iOpcao_checada][3].' - '.$iPos;
+return false;
+?>

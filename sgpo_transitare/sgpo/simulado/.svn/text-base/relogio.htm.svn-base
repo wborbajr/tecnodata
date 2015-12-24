@@ -1,0 +1,419 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="Expires" CONTENT="Mon, 04 Dec 1999 21:29:02 GMT">
+<meta http-equiv="Pragma" CONTENT="NO-CACHE">
+<meta name=description content="Portal de Produtos e Serviços - !deREF.">
+<meta name=keywords content="Carros, Turismo, História, Política, Cultura, Saúde, Receitas, Informática, Tecnologias, Telefone, Celular, Segurança, Religiões, Educação, Notícias, Esportes, Futebol, Tênis, Informações">
+<title>.: Mais do Mesmo :. Portal de Produtos e Serviços - !deREF.</title>
+<style type="text/css"><!--
+td				{ font: 10px verdana; }
+td.bar			{ height: 54px; border-bottom: 1px solid #eeeeee; font: 10px verdana; padding-left: 5px; padding-right: 5px; vertical-align: middle; }
+td.barTop		{ height: 47px; border-bottom: 1px solid #eeeeee; font: 10px verdana; padding-left: 5px; padding-right: 5px; vertical-align: middle; }
+td.barBottom	{ height: 55px; font: 10px verdana; padding-left: 5px; padding-right: 5px; vertical-align: middle; }
+a.barItem		{ font: 10px arial; text-decoration: none; color: #000000; }
+a.barItem:hover	{ text-decoration: underline; }
+a.link			{ font: 10px arial; text-decoration: none; color: #FFFFFF; }
+a.visited		{ font: 10px arial; text-decoration: none; color: #FFFFFF; }
+a.hover			{ font: 10px arial; text-decoration: none; color: #FFFFFF; }
+.menu a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0099CC;
+	text-decoration:none;
+}
+.menu a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#0099CC;
+	text-decoration: none;
+}
+.menu a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#007CA6;
+	text-decoration: underline;
+}
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#0099CC;
+	text-decoration:none;
+}
+--></style>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+<!--
+function tick() {
+  var hours, minutes, seconds, ap;
+  var intHours, intMinutes, intSeconds;
+  var today;
+  today = new Date();
+  intHours = today.getHours();
+  intMinutes = today.getMinutes();
+  intSeconds = today.getSeconds();
+  if (intHours == 0) {
+     hours = "00:";
+     ap = "AM";
+  } else if (intHours < 12) {
+     hours = intHours+":";
+     ap = "AM";
+  } else if (intHours == 12) {
+     hours = "12:";
+     ap = "PM";
+  } else {
+     intHours = intHours - 12
+     hours = intHours + ":";
+     ap = "PM";
+  }
+  if (intMinutes < 10) {
+     minutes = "0"+intMinutes+":";
+  } else {
+     minutes = intMinutes+":";
+  }
+  if (intSeconds < 10) {
+     seconds = "0"+intSeconds+" ";
+  } else {
+     seconds = intSeconds+" ";
+  }
+  timeString = hours+minutes+seconds+ap;
+  Clock.innerHTML = timeString;
+  window.setTimeout("tick();", 100);
+}
+window.onload = tick;
+-->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<script>
+ var aFundo = new Array("FFFFFF", "#D2D2D2", "#FFFF99", "#33CCFF");
+ document.bgColor = aFundo[ Math.floor(Math.random() * aFundo.length) ];
+</script>
+</head>
+
+<body leftmargin="25" topmargin="0">
+ 
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%">&nbsp;</td>
+    <td> 
+      <table width="500" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td>&nbsp;</td>
+          <td valign="bottom">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td valign="bottom" bordercolor="#7B9B1C"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td><img src="images/top1.jpg" alt="" width="234" height="23"></td>
+              </tr>
+              <tr> 
+                <td height="98" align="center" background="images/name.jpg"> 
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="210" height="93">
+                    <param name="quality" value="high"><param name="SRC" value="images/mmlogo.swf">
+                    <embed src="images/mmlogo.swf" width="210" height="93" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed></object>
+                </td>
+              </tr>
+              <tr> 
+                <td><img src="images/top2.jpg" alt=""></td>
+              </tr>
+            </table></td>
+          <td><table width="500" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td height="106" align="right" valign="top" background="images/solutions.jpg"> 
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr> 
+                      <td align="center"> <p>&nbsp;</p>
+                        <p><font color="#FFFFFF"><font size="4"><strong>:. MaisdoMesmo 
+                          .:</strong></font><br>
+                          Portal de Informa&ccedil;&otilde;es e Servi&ccedil;os.</font> 
+                        </p></td>
+                      <td align="right" valign="top"><a href="./"><img src="images/p1.jpg" alt="" align="middle" hspace="5" border="0"></a><img src="images/p_line.jpg" alt="" align="middle" hspace="5"><a href="#"><img src="images/p2.jpg" alt="" align="middle" hspace="5" border="0"></a><img src="images/p_line.jpg"  alt="" align="middle" hspace="5"><a href="#"><img src="images/p3.jpg" alt="" align="middle" hspace="5" border="0"></a></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td width="500" height="60" class="top" valign="top"> <table width="100%" border="0" cellpadding="0" cellspacing="4">
+                    <tr> 
+                      <td width="335"> <p align="justify"><font color="#FFFFFF">Carros, 
+                          Turismo, Hist&oacute;ria, Pol&iacute;tica, Sa&uacute;de, 
+                          Receitas, Inform&aacute;tica, Tecnologias, Telefone, 
+                          Celular, Seguran&ccedil;a, Religi&otilde;es ou seja, 
+                          informa&ccedil;&otilde;es que est&atilde;o na rede mas, 
+                          colocadas aqui com qualidade.</font></p></td>
+                      <td width="153">&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="31" align="center" valign="top" class="search_bg"> 
+            segunda, 23 de Julho de 2007            <div id="Clock" style="font-family:Verdana, Arial; font-size: 10; color:#FFFFFF" align="center"></div></td>
+          <td class="menu" width="500" align="right"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td> <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='.'>Início</a>&nbsp;<img src="images/pointer3.jpg" alt="" align="middle">&nbsp; 
+                        <a href='?_0='></a>
+                        </td>
+                    </tr>
+                    <tr> 
+                      <td> 
+                        <hr width="95%" size="0">
+                      </td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td valign="top" class="left"> 
+            <!-- Menu - Inicio -->
+            <table border=0 width="200"cellspacing="0" cellpadding="0" align="center">
+              <tr> 
+                <td colspan="2">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td colspan="2"><img src="images/assuntos.gif" border="0"></td>
+              </tr>
+              <tr> 
+                <td colspan="2"><hr size="0"></td>
+              </tr>
+              <tr><td width=18 align='center'><img src='images/poiner2.jpg' vspace='5'></td><td><a href='./index.php?_0=4'>Vírus</a></td></tr><tr><td width=18 align='center'><img src='images/poiner2.jpg' vspace='5'></td><td><a href='./index.php?_0=5'>Linux</a></td></tr><tr><td width=18 align='center'><img src='images/poiner2.jpg' vspace='5'></td><td><a href='./index.php?_0=2'>Internet</a></td></tr><tr><td width=18 align='center'><img src='images/poiner2.jpg' vspace='5'></td><td><a href='./index.php?_0=6'>Windows</a></td></tr><tr><td width=18 align='center'><img src='images/poiner2.jpg' vspace='5'></td><td><a href='./index.php?_0=1'>Programação</a></td></tr>            </table>
+            <!-- Menu - Fim -->
+            <br>
+            <br>
+            <table width="200" border=0 align="center" cellpadding="0"cellspacing="0">
+              <tr> 
+                <td><img src="images/produtos_servicos.gif" width="125" height="18"></td>
+              </tr>
+              <tr> 
+                <td><hr size="0"></td>
+              </tr>
+              <tr> 
+                <td> 
+                  <!-- patrocínio - Inicio -->
+                  <style>
+#d2 a{border-top:white 1px solid;border-bottom:#BEBEBE 1px solid;padding:6px 5px 6px 5px;}
+#drc {border-top:#BEBEBE 1px solid;}
+.ok,#bt1,#bt2{border:black 1px solid}
+.ok,#bt2{border-color:#8A9CC3 black black #8A9CC3}
+#bt1{border-color:#CC3333 #330000 #330000 #CC3333}
+#b1 a,#b2,#b3{border:#6699CC 1px solid}
+.cx{border:#48597E 2px outset}
+</style>
+<script language="javascript">
+<!--
+function abre_janela(pag) {
+
+ popup = window.open('./patrocinio/'+pag,'Patrocínio','title=no,resizable=yes,scrollbars=no,status=no,width=600,height=400');
+
+ popup.focus();
+}
+//-->
+</script>
+<!-- Monta a lista de patrocinadores -->
+<script language="javascript" type="text/javascript" src="./patrocinios.inc.js"></script>
+<script language="javascript" type="text/javascript">
+function folhashop_vitrine( ofertas ){
+	var html = "" ;
+	var sorteado ;
+	var sDestaque = "class='cpr2 pdl5'";
+	html += "<table width=\"95%\" border=\"0\" cellpadding=\"0\" cellspacing=bgcolor=\"#7B9B1C\" \"0\" style=\"border: 1px solid white;\">" ;
+	var grupos = new Array() ;
+	if( ofertas[0][0] != null ) grupos[0] = 1 ;
+	for( var i = 0, j = 0; i < ofertas.length - 1; i++ )
+		if( ofertas[i][0] == ofertas[i+1][0] ) grupos[j]++ ;
+		else grupos[++j] = 1 ;
+	for( i = 0, j = 0; i < ofertas.length && j < grupos.length ; i += grupos[j++] ){
+		sorteado = Math.floor( Math.random() * 10000 ) % grupos[j] + i ;
+	    html += "<tr "+sDestaque+">" ;
+	    if( j == grupos.length - 1 )
+	    	html += "<td class=\"barBottom\">" ;
+	    else
+	    	html += "<td class=\"bar\">" ;
+	    html += "<b>" + ofertas[sorteado][1] + "<\/b><br>" ;
+	    html += "<a href=\"" + ofertas[sorteado][2] + "\" class=\"barItem\">" + ofertas[sorteado][3] + "<\/a><\/td><\/tr>";
+
+	    if (sDestaque=="class='cpr2 pdl5'")
+	      { sDestaque = "class='cpr1 pdl5'"} else
+	      { sDestaque = "class='cpr2 pdl5'"};
+	}
+
+	html += "<\/table>" ;
+    document.write( html );
+}
+if( ofertas != null ) folhashop_vitrine( ofertas ) ;
+</script>
+
+                  <!-- patrocínio - Fim -->
+                </td>
+              </tr>
+              <tr>
+                <td><hr size="0"></td>
+              </tr>
+            </table>
+          <p>&nbsp;</p></td>
+          <td valign="top" class="right"><table border="0">
+              <tr> 
+                <td align="right" valign="top"> 
+                  <SCRIPT language=JavaScript type=text/JavaScript>
+<!--
+//Função de expansão de itens ocultos
+function expande(ch) {
+    if (""!=ch) {
+      var el = document.all[ch] 
+      if (null!=el) el.style.display = "none" == el.style.display ? "" : "none"
+      event.returnValue=false
+	}
+}
+//-->
+</SCRIPT> 
+                  <table border="0" cellpadding="0" cellspacing="0" id="id_materias">
+                    <tr align="left"> 
+                      <td colspan="3"> 
+                        <!-- Destaque - Inicio -->
+                                                <table width="400" border="0">
+                          <tr> 
+                            <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td align="left"><p><img src="images/welcome.gif" alt="" width="351" height="26"><br />
+                                <br>
+                                Salve!<br>
+                                <br>
+                                O conte&uacute;do desse site &eacute; a colet&acirc;nea 
+                                dos resultados das pesquisas que venho realizando. 
+                                Muitas vezes, as informa&ccedil;&otilde;es que 
+                                encontro, as uso mais de uma vez e, quando procuro 
+                                novamente n&atilde;o a encontro. Motivos: site 
+                                fora do ar ou a mat&eacute;ria foi apagada ou 
+                                protegida.<br>
+                                <br>
+                                Foi a&iacute; que criei o maisdomesmo.<br>
+                                <br>
+                                Tenha uma boa estada e... volte sempre! :)</p></td>
+                          </tr>
+                        </table>
+                                                <!-- Destaque - Fim -->
+                        <table width="400" border="0" class="news">
+                          <tr> 
+                            <td width="10" align="left">&nbsp;&nbsp;&nbsp;&nbsp; 
+                            </td>
+                            <td align="left"> 
+                                                            <!-- Materias - Inicio -->
+                                                            <!-- Materias - Fim -->
+                                                            <!-- Destaques - Inicio -->
+                              <table border=0 width=100% style="news_box">
+<tr><td valign=top>
+  <br><img src=images/destaques.gif><hr size=0 width=90%><br>
+<b>Programação: </b><a href='./index.php?_0=1&_1=1'>Origem da Programação</a><br><b>Windows: </b><a href='./index.php?_0=6&_1=2'>O que fazer se o Windows está no limite?</a><br><b>Internet: </b><a href='./index.php?_0=2&_1=4'>A origem da Internet</a><br><b>Vírus: </b><a href='./index.php?_0=4&_1=6'>V&iacute;rus, sua origem</a><br><b>Linux: </b><a href='./index.php?_0=5&_1=9'>O que &eacute; Linux</a><br></td></tr>
+</table>
+                              <!-- Destaques - Fim -->
+                              <!-- RSS - inicio -->
+                              <br><table width="100%" border="0" cellspacing="1" cellpadding="0" bgcolor="#101070"><tr><td>
+<table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#FFFFFF"><tr><td>
+<center><b>Notícias de outros portais</b><br><br>Selecione o site do qual você deseja ler as notícias:<br><br>
+<form action="modules.php?name=Your_Account" method="post">
+<input type="hidden" name="op" value="userinfo">
+<input type="hidden" name="username" value="reiwolf">
+<input type="hidden" name="bypass" value="0">
+<input type="hidden" name="url" value="0">
+<select name="_99" onchange="window.open('./rss/?_99='+_99.value, '_new');">
+<option value=nulo>Selecione um portal</option>
+iQtd = 21<option value='0' >Notícias RNP</option><option value='1' >RNP na Mídia</option><option value='2' >Alertas do CAIS</option><option value='3' >Social - Aprendiz</option><option value='4' >Política - Hora do Povo</option><option value='5' >Política - Correio dos Municipios</option><option value='6' >Folha - Brasil</option><option value='7' >Folha - Ciência</option><option value='8' >Folha - Cotidiano</option><option value='9' >Folha - Dinheiro</option><option value='10' >Folha - Esporte</option><option value='11' >Folha - Informática</option><option value='12' >Folha - Mundo</option><option value='13' >Tecnologia - Plantão¯ Info</option><option value='14' >Tecnologia - Web Insider</option><option value='15' >Linux - OLinux Notícias</option><option value='16' >Linux - Linux Clube :: Noticias</option><option value='17' >Linux - Notícias Linux</option><option value='18' >Linux - BR-Linux.org - Linux levado a sério desde 1996</option><option value='19' >Linux - Projeto Kurumin Turbo</option><option value='20' >Programação - php.net</option></select></form>Ou digite a URL RSS/XML do portal que você deseja:<br><br><form action="modules.php?name=Your_Account" method="post"><input type="hidden" name="op" value="userinfo"><input type="hidden" name="username" value="reiwolf"><input type="hidden" name="bypass" value="0"><input type="hidden" name="hid" value="0"><input type="text" name="url" size="40" maxlength="200" value="http://">&nbsp;&nbsp;<input type="submit" value="Ir"></form></center><br></td></tr></table></td></tr></table>
+                              <!-- RSS - Fim -->
+                            </td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                <td valign="top"> 
+                  <!-- Produtos - Inicio -->
+                  <script language="javascript" type="text/javascript">
+var ofertas = new Array(
+["1" ,"<img width=100 border=0 src=./produtos/inf/HD_IDE_40_GB_SEAGATE.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">HD IDE 40.0 GB SEAGATE 7200<\/font><br><strike>R$ 206,41<\/strike><\/strike>"],
+["1" ,"<img width=100 border=0 src=./produtos/inf/GRAVADOR_CDDVD_16X_52X32X52-LG4521B_OEM.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">GRAVADOR DE CD LG 52X32X52 / LEITOR DE DVD 16X - COMBO 4521B<\/font><br><strike>R$ 242,55<\/strike>"],
+["1" ,"<img width=100 border=0 src=./produtos/inf/HD_SATA_80_GB_SEAGATE_7200.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">HD SATA 80.0 GB SEAGATE 7200<\/font><br><strike>R$ 262.71<\/strike>"],
+["1" ,"<img width=100 border=0 src=./produtos/inf/drive144.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">DRIVE 1.44<\/font><br><strike>R$ 45,00<\/strike>"],
+["2" ,"<img width=100 border=0 src=./produtos/inf/place_rede_3C905B-TX-NMp.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">PLACA DE REDE PCI 10/100 3COM 3C905B-TX<\/font><br><strike>R$ 73,50<\/strike>"],
+["2" ,"<img width=100 border=0 src=./produtos/inf/COOLER_MASTER_DK8-8JD2B-0_1.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">COOLER.MASTER DK8-8JD2B-01 AMD 64 3.7<\/font><br><strike>R$ 59,40<\/strike>"],
+["2" ,"<img width=100 border=0 src=./produtos/inf/m902lu_51s.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">PLACA MÃE P4 PCCHIPS 902LU S478 533MHZ INT 845<\/font><br><strike>R$ 222.90<\/strike>"],
+["3" ,"<img width=100 border=0 src=./produtos/inf/MB_K7_PCCHIPS_825G_V9_2_LMRT_333MHZ_DDR.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">MB K7 PCCHIPS 825G V9.2 LMRT 333MHZ DDR<\/font><br><strike>R$ 156.38<\/strike>"],
+["3" ,"<img width=100 border=0 src=./produtos/inf/gravadorLG52-1.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">GRAVADOR DE CD 52X32X52 - LG 8526B OEM<\/font><br><strike>R$ 148,50<\/strike>"],
+["3" ,"<img width=100 border=0 src=./produtos/inf/MB_K7_ABIT_NF7_S2G_400MHZ_SOM_GIGALAN_SA.jpg>", "javascript:abre_janela('!deREF.php');", "<font color=\"#cc3300\">MB K7 ABIT NF7-S2G 400MHZ SOM/GIGALAN SA<\/font><br><strike>R$ 246,03<\/strike>"]);
+</script>
+
+<script language="javascript" type="text/javascript"><!--
+function folhashop_vitrine( ofertas ){
+	var html = "" ;
+	var sorteado ;
+	html += "<table width=\"30\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#ffffff\" style=\"border: 1px solid #000000;\">" ;
+	var grupos = new Array() ;
+	if( ofertas[0][0] != null ) grupos[0] = 1 ;
+	for( var i = 0, j = 0; i < ofertas.length - 1; i++ )
+		if( ofertas[i][0] == ofertas[i+1][0] ) grupos[j]++ ;
+		else grupos[++j] = 1 ;
+	for( i = 0, j = 0; i < ofertas.length && j < grupos.length ; i += grupos[j++] ){
+		sorteado = Math.floor( Math.random() * 10000 ) % grupos[j] + i ;
+	    html += "<tr>" ;
+	    if( j == grupos.length - 1 )
+	    	html += "<td class=\"barBottom\">" ;
+	    else
+	    	html += "<td class=\"bar\">" ;
+	    html += "<b><br>" + ofertas[sorteado][1] + "<\/b><br>" ;
+	    html += "<a href=\"" + ofertas[sorteado][2] + "\" class=\"barItem\">" + ofertas[sorteado][3] + "<\/a><\/td><\/tr>" ;
+	}
+
+	html += "<\/table>" ;
+    document.write( html );
+}
+if( ofertas != null ) folhashop_vitrine( ofertas ) ;
+//--></script>
+                  <!-- Produtos - Fim -->
+                </td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr valign="middle"> 
+          <td height="48" colspan="2" style="background-image:url(images/footer.jpg);"> 
+            <TABLE width="100%" border=0 cellPadding=0 cellSpacing=0>
+              <TR> 
+                  <TD width=36 height=20 ><IMG src="images/brazil.gif"
+      width=36></TD>
+                  <TD width="91" align=left class=footer-country-text> <P><font color="#FFFFCC">Brazil 
+                    - Brasil</font></P></TD>
+                  <TD width="452" align=center class=footer-country-text> <p><font color="#FFFFCC">&copy; 
+                    2007 Ponto de Refer&ecirc;ncia em Inform&aacute;tica Ltda.<br>
+                    <a href="http://www.dereferencia.com.br" target="_blank"><font color="#FFFFFF">http://www.dereferencia.com.br</font></a></font></p></TD>
+                  
+                <TD width="150" align=right class=footer-country-text><font color="#FFFFCC"><img src="/cgi-sys/Count.cgi?df=maisdomesmo.dat|display=Counter|ft=2|md=5|frgb=100;139;216|dd=E" align="absmiddle"> 
+                  Visualiza&ccedil;&otilde;es &nbsp;&nbsp;</font></TD>
+                  <TD width="5" align=right class=footer-country-text>&nbsp;</TD>
+                </TR>
+            </TABLE>
+          </td>
+        </tr>
+      </table>
+	</td>
+    <td width="50%"> </td>
+  </tr>
+</table>
+<script language="JavaScript">
+        <!--
+var from = document.referrer;
+document.write("<IMG SRC=./x-stat/x_stat.php?reffer=" + from + " border=0 width=1 hight=1>");
+        // -->
+</script>
+<p>&nbsp;</p></body>
+</html>

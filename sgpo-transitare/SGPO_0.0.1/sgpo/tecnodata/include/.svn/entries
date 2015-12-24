@@ -1,0 +1,52 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/SGPO_0.0.1/sgpo/tecnodata/include
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+autentica_acao.php
+file
+
+
+
+
+2008-03-18T14:17:59.000000Z
+b8f4456bd3134bc061583f01952a8ea5
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+autentica_login.php
+file
+
+
+
+
+2008-03-18T14:17:59.015625Z
+58fbeff9e9fa080f69562ca7a546b405
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

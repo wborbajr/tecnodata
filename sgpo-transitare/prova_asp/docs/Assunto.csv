@@ -1,0 +1,246 @@
+COD;DISCIPLINA;COD;ASSUNTO
+1;Legislação de Trânsito;1;Introdução
+1;Legislação de Trânsito;2;Código de trânsito brasileiro
+1;Legislação de Trânsito;3;Direitos e deveres do cidadão no trânsito
+1;Legislação de Trânsito;4;Sistema nacional de trânsito
+1;Legislação de Trânsito;5;As vias
+1;Legislação de Trânsito;6;Velocidade máxima nas vias
+1;Legislação de Trânsito;7;Classificação geral dos veículos
+1;Legislação de Trânsito;8;Identificação dos veículos
+1;Legislação de Trânsito;9;Registro e licenciamento dos veículos
+1;Legislação de Trânsito;10;Identificação e e habilitação do condutor
+1;Legislação de Trânsito;11;Processo de habilitação
+1;Legislação de Trânsito;12;Categorias de CNH
+1;Legislação de Trânsito;13;Validade da CNH
+1;Legislação de Trânsito;14;Normas gerais de circulação e conduta
+1;Legislação de Trânsito;15;Trafegando
+1;Legislação de Trânsito;16;Restrições de uso das vias
+1;Legislação de Trânsito;17;Prioridade de passagem
+1;Legislação de Trânsito;18;Mudanças de direção e manobras
+1;Legislação de Trânsito;19;Cruzamentos
+1;Legislação de Trânsito;20;Ultrapassagens
+1;Legislação de Trânsito;21;Uso de luzes e buzina
+1;Legislação de Trânsito;22;Reduzir, frear, parar e estacionar
+1;Legislação de Trânsito;23;Normas de circulação para ciclos
+1;Legislação de Trânsito;24;Normas de circulação para pedestres
+1;Legislação de Trânsito;25;Acidentes 
+1;Legislação de Trânsito;26;Crimes de trânsito
+2;Infrações de Trânsito;27;Penalidades, medidas administrativas
+2;Infrações de Trânsito;28;Condutor
+2;Infrações de Trânsito;29;Habilitação
+2;Infrações de Trânsito;30;Circulação
+2;Infrações de Trânsito;31;Transitar
+2;Infrações de Trânsito;32;Efetuar retorno e conversões
+2;Infrações de Trânsito;33;Efetuar ultrapassagem
+2;Infrações de Trânsito;34;Não dar passagem ou preferência
+2;Infrações de Trânsito;35;Não reduzir
+2;Infrações de Trânsito;36;Não parar
+2;Infrações de Trânsito;37;Parar
+2;Infrações de Trânsito;38;Estacionar
+2;Infrações de Trânsito;39;Buzina e som
+2;Infrações de Trânsito;40;Velocidade 
+2;Infrações de Trânsito;41;Veículo - identificação e documentação
+2;Infrações de Trânsito;42;Veículos
+2;Infrações de Trânsito;43;Luzes e sinais
+2;Infrações de Trânsito;44;Motocicleta, motoneta e ciclomotor
+2;Infrações de Trânsito;45;Transportes e cargas
+2;Infrações de Trânsito;46;Pedestres e veículos não motorizados
+2;Infrações de Trânsito;47;Acidentes de trânsito
+3;Sinalização de Trânsito;48;Resolução 160/04
+3;Sinalização de Trânsito;49;Sinalização de regulamentação
+3;Sinalização de Trânsito;50;Sinalização de advertência
+3;Sinalização de Trânsito;51;Sinalização especial de advertência
+3;Sinalização de Trânsito;52;Sinalização de indicação
+3;Sinalização de Trânsito;53;Sinalização horizontal
+3;Sinalização de Trânsito;54;Dispositivos auxiliares
+3;Sinalização de Trânsito;55;Dispositivos de uso temporário
+3;Sinalização de Trânsito;56;Sinalização semafórica
+3;Sinalização de Trânsito;57;Sinalização de obras
+3;Sinalização de Trânsito;58;Gestos dos agentes de trânsito
+3;Sinalização de Trânsito;59;Gestos de condutores
+3;Sinalização de Trânsito;60;Sinais sonoros
+4;Direção Defensiva;61;Introdução, definição
+4;Direção Defensiva;62;Negligência, imprudência, imperícia
+4;Direção Defensiva;63;Elementos da direção ou pilotagem defensiva
+4;Direção Defensiva;64;Conhecimento
+4;Direção Defensiva;65;Condições adversas de iluminação
+4;Direção Defensiva;66;Condições adversas de tempo
+4;Direção Defensiva;67;Condições adversas das vias
+4;Direção Defensiva;68;Condições adversas de trânsito
+4;Direção Defensiva;69;Condições adversas do veículo
+4;Direção Defensiva;70;Condições adversas de cargas
+4;Direção Defensiva;71;Condições adversas de passageiros
+4;Direção Defensiva;72;Condições adversas do condutor
+4;Direção Defensiva;73;Álcool
+4;Direção Defensiva;74;Drogas e medicamentos
+4;Direção Defensiva;75;Sono e fadiga
+4;Direção Defensiva;76;Atenção
+4;Direção Defensiva;77;Previsão
+4;Direção Defensiva;78;Habilidade
+4;Direção Defensiva;79;Ação
+4;Direção Defensiva;80;Acidentes
+4;Direção Defensiva;81;Como evitar acidentes
+4;Direção Defensiva;82;Evitando colisões com o veículo da frente
+4;Direção Defensiva;83;Evitando colisões com o veículo de trás
+4;Direção Defensiva;84;Evitando colisões com os demais veículos
+4;Direção Defensiva;85;Evitando colisões com veículos em sentido contrário
+4;Direção Defensiva;86;Evitando colisões em ultrapassagens
+4;Direção Defensiva;87;Evitando colisões em curvas
+4;Direção Defensiva;88;Evitando colisões em cruzamentos
+4;Direção Defensiva;89;Evitando colisões em marcha à ré
+4;Direção Defensiva;90;Veículos de pequeno porte X grande porte
+4;Direção Defensiva;91;Evitando colisões de automóveis com motocicletas
+4;Direção Defensiva;92;Evitando colisões com pedestres
+4;Direção Defensiva;93;Evitando colisões com ciclistas
+4;Direção Defensiva;94;Evitando colisões com animais
+4;Direção Defensiva;95;Evitando colisões com elementos fixos
+4;Direção Defensiva;96;Direção ou pilotagem defensiva nas rodovias
+4;Direção Defensiva;97;Direção econômica
+5;Primeiros Socorros;98;Acidentes
+5;Primeiros Socorros;99;Quem deve prestar socorro às vítimas
+5;Primeiros Socorros;100;Quais as primeiras providências?
+5;Primeiros Socorros;101;Origem dos ferimentos
+5;Primeiros Socorros;102;Atendendo às vítimas
+5;Primeiros Socorros;103;Avaliação primária
+5;Primeiros Socorros;104;A. desobstruir vias aéreas e controlar coluna cervical
+5;Primeiros Socorros;105;B. verificar a respiração
+5;Primeiros Socorros;106;C. verificar a circulação
+5;Primeiros Socorros;107;D. verificar o estado de consciência
+5;Primeiros Socorros;108;E. proteção da vítima
+5;Primeiros Socorros;109;Manutenção dos sinais vitais
+5;Primeiros Socorros;110;Avaliação secundária
+5;Primeiros Socorros;111;Parada cardiorrespiratória
+5;Primeiros Socorros;112;Respiração artificial
+5;Primeiros Socorros;113;Reanimação cardíaca
+5;Primeiros Socorros;114;Quando o atendente estiver sozinho
+5;Primeiros Socorros;115;Quando houver dois atendentes
+5;Primeiros Socorros;116;Estado de choque
+5;Primeiros Socorros;117;Desmaio
+5;Primeiros Socorros;118;Convulsões
+5;Primeiros Socorros;119;Hemorragia
+5;Primeiros Socorros;120;Hemorragia externa
+5;Primeiros Socorros;121;Hemorragia interna
+5;Primeiros Socorros;122;Hemorragia nasal
+5;Primeiros Socorros;123;Fraturas
+5;Primeiros Socorros;124;Fraturas fechadas
+5;Primeiros Socorros;125;Fraturas abertas ou expostas
+5;Primeiros Socorros;126;Fratura da coluna vertebral
+5;Primeiros Socorros;127;Fratura de crânio
+5;Primeiros Socorros;128;Fratura de costelas
+5;Primeiros Socorros;129;Fratura de quadril
+5;Primeiros Socorros;130;Queimaduras
+5;Primeiros Socorros;131;Ferimentos nos olhos
+5;Primeiros Socorros;132;Ferimento no tórax e abdômen
+5;Primeiros Socorros;133;Movimentação e transporte de emergência
+6;Mecânica Básica;134;Introdução
+6;Mecânica Básica;135;Motor
+6;Mecânica Básica;136;Combustível
+6;Mecânica Básica;137;Lubrificante
+6;Mecânica Básica;138;Refrigeração
+6;Mecânica Básica;139;Sistema elétrico
+6;Mecânica Básica;140;Câmbio e embreagem
+6;Mecânica Básica;141;Direção
+6;Mecânica Básica;142;Suspensão
+6;Mecânica Básica;143;Freios
+6;Mecânica Básica;144;Pneus 
+6;Mecânica Básica;145;Extintores de incêndio
+6;Mecânica Básica;146;Painel de instrumentos
+6;Mecânica Básica;147;Equipamentos obrigatórios
+6;Mecânica Básica;148;Mecânica de motocicletas
+6;Mecânica Básica;149;Problemas mecânicos
+6;Mecânica Básica;150;Equipamentos de segurança do piloto
+7;Meio Ambiente;151;Planeta terra
+7;Meio Ambiente;152;Meio ambiente
+7;Meio Ambiente;153;Ecologia
+7;Meio Ambiente;154;A água
+7;Meio Ambiente;155;Poluição
+7;Meio Ambiente;156;Poluição do ar
+7;Meio Ambiente;157;Trânsito e meio ambiente
+7;Meio Ambiente;158;Principais gases emitidos
+7;Meio Ambiente;159;Emissão de partículas
+7;Meio Ambiente;160;Emissão sonora
+7;Meio Ambiente;161;Cuidados com o motor do veículo
+7;Meio Ambiente;162;Lixo e outros poluentes
+7;Meio Ambiente;163;Os veículos poluidores
+8;Cidadania;164;Indivíduo
+8;Cidadania;165;Grupo social
+8;Cidadania;166;Sociedade
+8;Cidadania;167;O indivíduo e a sociedade
+8;Cidadania;168;Diferenças individuais
+8;Cidadania;169;Relacionamento interpessoal
+8;Cidadania;170;O cidadão e o trânsito
+9;Relacionamento Interpessoal;171;Introdução
+9;Relacionamento Interpessoal;172;O indivíduo, o grupo e a sociedade
+9;Relacionamento Interpessoal;173;O indivíduo e a sociedade
+9;Relacionamento Interpessoal;174;Diferenças individuais
+9;Relacionamento Interpessoal;175;O bom relacionamento
+9;Relacionamento Interpessoal;176;Bom relacionamento no trânsito
+9;Relacionamento Interpessoal;177;Qualidade no relacionamento interpessoal
+9;Relacionamento Interpessoal;178;O cidadão e o trânsito
+9;Relacionamento Interpessoal;179;Comportamento no trânsito
+9;Relacionamento Interpessoal;180;Tipos de comportamento
+9;Relacionamento Interpessoal;181;Conflitos no trânsito
+9;Relacionamento Interpessoal;182;O estresse
+9;Relacionamento Interpessoal;183;O estresse e o trânsito
+10;Proteção ao Meio Ambiente e Cidadania;184;Relação trânsito e meio ambiente
+10;Proteção ao Meio Ambiente e Cidadania;185;Preservação do meio
+10;Proteção ao Meio Ambiente e Cidadania;186;Indivíduo/grupo/sociedade: postura e papel social. 
+10;Proteção ao Meio Ambiente e Cidadania;187;Veículo como agente poluidor
+10;Proteção ao Meio Ambiente e Cidadania;188;Tipos de poluição – emissão: de gases, sonora, de partículas
+10;Proteção ao Meio Ambiente e Cidadania;189;Manutenção preventiva
+10;Proteção ao Meio Ambiente e Cidadania;190;Legislação específica (CONAMA)
+10;Proteção ao Meio Ambiente e Cidadania;191;Relações humanas e trânsito
+10;Proteção ao Meio Ambiente e Cidadania;192;Relações Interpessoais no trânsito
+10;Proteção ao Meio Ambiente e Cidadania;193;Indivíduo como cidadão
+10;Proteção ao Meio Ambiente e Cidadania;194;Responsabilidade do cidadão no trânsito
+10;Proteção ao Meio Ambiente e Cidadania;195;Cidadão e o espaço público
+10;Proteção ao Meio Ambiente e Cidadania;196;Uso racional do veículo
+10;Proteção ao Meio Ambiente e Cidadania;197;Direitos e deveres do cidadão
+11;Legislação de Trânsito Específica- Instrutor;198;Normas legais (CTB, Resoluções e Portarias)
+11;Legislação de Trânsito Específica- Instrutor;199;Órgãos de trânsito e suas competências
+11;Legislação de Trânsito Específica- Instrutor;200;DETRAN e CFC
+11;Legislação de Trânsito Específica- Instrutor;201;Educação para o Trânsito
+11;Legislação de Trânsito Específica- Instrutor;202;Regras de circulação
+11;Legislação de Trânsito Específica- Instrutor;203;Sinalização de Trânsito
+11;Legislação de Trânsito Específica- Instrutor;204;Habilitação: formação e documentos obrigatórios
+11;Legislação de Trânsito Específica- Instrutor;205;Curso de reciclagem para infratores
+11;Legislação de Trânsito Específica- Instrutor;206;Veículo: equipamentos e documentos obrigatórios
+11;Legislação de Trânsito Específica- Instrutor;207;Infrações, penalidades e medidas administrativas
+12;Noções de Engenharia de Trânsito;208;Sistema viário: conceito e tipos de via
+;;;
+12;Noções de Engenharia de Trânsito;209;Planejamento e organização
+12;Noções de Engenharia de Trânsito;210;Cidadão, veículo e via: papel social
+13;Mecânica Básica e Manutenção dos Veículos;211;Equipamentos obrigatórios, acessórios e de segurança
+13;Mecânica Básica e Manutenção dos Veículos;212;Funcionamento e operação do veículo e seus diversos sistemas
+13;Mecânica Básica e Manutenção dos Veículos;213;Uso e Manutenção preventiva
+14;Prática de Direção;214;Atividades práticas 
+14;Prática de Direção;215;Didática da prática de direção veicular
+14;Prática de Direção;216;Elaboração de roteiros específicos para aulas práticas de veículos de duas rodas e quatro rodas ou mais, conforme conteúdos estabelecidos na Resolução 168/04 do CONTRAN, incluindo aulas em rodovias
+14;Prática de Direção;217;Elaboração de instrumentos para acompanhamento do desempenho do candidato nas aulas práticas
+14;Prática de Direção;218;Elaboração de Instrumentos para registro de conteúdo e freqüência às aulas práticas 
+14;Prática de Direção;219;Prática de direção em veículos de duas rodas e quatro rodas
+15;Noções de Medicina e de Psicologia no Trânsito;220;Álcool, drogas ilícitas, medicamentos e os acidentes de trânsito
+15;Noções de Medicina e de Psicologia no Trânsito;221;Sono e fadiga
+15;Noções de Medicina e de Psicologia no Trânsito;222;Trânsito e comportamento
+15;Noções de Medicina e de Psicologia no Trânsito;223;Papel do instrutor de trânsito na formação do condutor
+15;Noções de Medicina e de Psicologia no Trânsito;224;Relacionamento interpessoal instrutor/aluno
+15;Noções de Medicina e de Psicologia no Trânsito;225;Noções de Psicologia da Aprendizagem
+16;Orientação Educacional;226;Filosofia e política do DETRAN
+16;Orientação Educacional;227;Ética e profissionalismo
+16;Orientação Educacional;228;Relações pedagógicas Instrutor/ Diretor de Ensino, Instrutor/ Aluno, Instrutor/ Instrutor
+16;Orientação Educacional;229;"Fatores que interferem na aprendizagem; motivação e comunicação."
+16;Orientação Educacional;230;Situações de conflito: alunos e suas concepções
+16;Orientação Educacional;231;Postura – o instrutor como modelo e seu papel como formador de condutores
+17;Técnicas de Ensino e Didática;232;Organização do processo ensino-aprendizagem: teorias de ensino e aprendizagem
+17;Técnicas de Ensino e Didática;233;Didática – Planejamento e processo ensino-aprendizagem
+17;Técnicas de Ensino e Didática;234;Plano do Curso de Habilitação de Condutores
+17;Técnicas de Ensino e Didática;235;Elaboração de Planos de Aula Teóricas e Práticas
+17;Técnicas de Ensino e Didática;236;Elaboração de instrumentos de acompanhamento do desempenho do candidato nas aulas teóricas e práticas
+17;Técnicas de Ensino e Didática;237;Elaboração de instrumentos para registro de freqüência e conteúdos nas aulas teóricas e práticas.
+17;Técnicas de Ensino e Didática;238;Metodologia
+17;Técnicas de Ensino e Didática;239;Dinâmica – formas de operacionalizar a didática
+17;Técnicas de Ensino e Didática;240;Recursos instrucionais
+17;Técnicas de Ensino e Didática;241;Instrumentos de registro de freqüência, conteúdos e avaliação
+17;Técnicas de Ensino e Didática;242;Prática de ensino através de tecnologias
+17;Técnicas de Ensino e Didática;243;Avaliação didática de cada matéria do curso, propondo outras formas de abordagem
+;;;

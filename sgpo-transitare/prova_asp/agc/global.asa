@@ -1,0 +1,7 @@
+<script language="vbscript" runat="server">
+
+	Sub Application_OnStart
+		Application("Conexao") = "DRIVER=MySQL ODBC 3.51 Driver;SERVER=localhost;uid=root;pwd=;database=provaeletronica;"
+	End Sub
+
+</script>

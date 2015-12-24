@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Combobox com Checkbox</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function cd_atualiza_valores() {
+  var values = '';
+  for(i=0;i<document.all.cb_opcao.length;i++){
+    if(document.all.cb_opcao[i].checked==true){
+      if(values==''){
+	    values=values+document.all.cb_opcao[i].value;
+	  }
+	  else{
+		values=values+', '+document.all.cb_opcao[i].value;
+	  }
+	}
+  }
+  document.all.combobox.value=values;
+  document.all.combobox.title=values;
+}
+function cb_exibe_esconde() {
+  if(document.all.cb_opcoes.style.display==''){
+    document.all.cb_opcoes.style.display='none'
+  }
+  else{
+    document.all.cb_opcoes.style.display='';
+  }
+}
+//-->
+</script>
+</head>
+
+<body topmargin="10" leftmargin="10" rightmargin="10" bottommargin="10">
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td valign="bottom"><input type="text" name="combobox" value="" onClick="cb_exibe_esconde()" style="width: 100%; border: 2px whitesmoke inset; border-right: none; height: 20; font-family: arial; font-size: 12px;" readonly title=""></td>
+    <td width="1%" valign="bottom"><img src="cb.gif" width="17" height="21" onClick="cb_exibe_esconde()"></td>
+  </tr>
+</table>
+<div id="cb_opcoes" style="position:absolute; left:10px; top:30px; width:165px; height:104px; z-index:1; font-family: arial; font-size: 12px; background: white; border: 1px solid gray; overflow: auto; display: none;">
+<input type="checkbox" name="cb_opcao" value="Segunda-Feira" onClick="cd_atualiza_valores()">Segunda-Feira
+<br><input type="checkbox" name="cb_opcao" value="Terça-Feira" onClick="cd_atualiza_valores()">Terça-Feira
+<br><input type="checkbox" name="cb_opcao" value="Quarta-Feira" onClick="cd_atualiza_valores()">Quarta-Feira
+<br><input type="checkbox" name="cb_opcao" value="Quinta-Feira" onClick="cd_atualiza_valores()">Quinta-Feira
+<br><input type="checkbox" name="cb_opcao" value="Sexta-Feira" onClick="cd_atualiza_valores()">Sexta-Feira
+<br><input type="checkbox" name="cb_opcao" value="Sábado" onClick="cd_atualiza_valores()">Sábado
+<br><input type="checkbox" name="cb_opcao" value="Domingo" onClick="cd_atualiza_valores()">Domingo
+</div>
+</body>
+</html>

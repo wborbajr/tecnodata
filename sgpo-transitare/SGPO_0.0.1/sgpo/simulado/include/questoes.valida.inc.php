@@ -1,0 +1,14 @@
+<?
+	session_start();
+
+	$iOpcao			= $_POST['iPos'];
+	$iOpcao_checada = $_POST['iOpcao_checada'];
+
+    // Grava a opção selecionada para posterior restauração
+    if (isset($iOpcao_checada)) {
+		// Seta a opção escolhida
+	    $_SESSION[questao][$iOpcao][3] = $iOpcao_checada;
+
+	};
+
+?>

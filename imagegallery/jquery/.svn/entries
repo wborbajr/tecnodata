@@ -1,0 +1,40 @@
+8
+
+dir
+10
+svn://192.168.0.9/projetosWEB/imagegallery/jquery
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T13:59:52.962276Z
+7
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+jquery-1.2.3.min.js
+file
+
+
+
+
+2008-03-18T14:12:41.109375Z
+bb122b33d64d02a106bf2230b2d41af0
+2008-03-18T13:59:52.962276Z
+7
+waldir
+

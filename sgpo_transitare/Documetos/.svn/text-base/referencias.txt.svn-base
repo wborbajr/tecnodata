@@ -1,0 +1,49 @@
+
+
+Referencias de programação:
+
+
+por Reinaldo S Guth - reiwolf@reiwolf.com.br
+
+
+
+Estrutura de diretorio:
+-----------------------------
+
+/sgpo 				- Diretório base do Sistema Gestor de Provas Online
+
+/sgpo/doc 			- Documentos diversos, back-up da estrutura em formato .sql
+
+/sgpo/include 			- Arquivos PHP de uso geral - em todo o projeto
+
+/sgpo/js			- Arquivos JavaScript de uso geral - em todo o projeto
+
+/sgpo/prova			- Módulo de Provas Online (Aplicação de provas)
+
+/sgpo/prova/css			- Folhas de estilos para o módulo de provas online
+
+/sgpo/prova/imagens		- Imagens 
+
+/sgpo/prova/include		- Arquivos PHP 
+
+/sgpo/prova/js			- Arquivos JavaScript
+
+
+
+
+Nomenclaturas
+----------------
+
+O significado de algumas siglas que são utilizadas em nomes de arquivos.
+
+
+.html / .htm			- Páginas 
+.php				- Arquivos PHP que exigem algum tratamento, executam algum procedimento junto ao servidor.
+.inc.php			- Em geral, layout de tela. Arquivos que complementam outros.
+.js.php				- Funções e procedimentos em formato JavaScript. Seu nome está relacionado com o nome do 
+				  arquivo ao qual faz parte. Praticamente toda funcionalidade da tela ".inc.php" está neste arquivo.
+.gif				- Imagens que complementam/compõem as telas do módulo
+.css				- Folhas de estilo - formatação de fontes, cores e estilos do site.
+
+
+

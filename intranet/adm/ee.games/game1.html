@@ -1,0 +1,140 @@
+<HTML>
+<HEAD>
+	<TITLE>Number slider puzzle</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	var grid_size=16;
+	var grid=new Array();
+
+function load_images() {
+	for (i=0;i<grid_size;i++) {
+		eval("document.cell" + i + "=new Image(); ");
+		grid[i]=i+1;
+	}
+	grid[grid_size-1]=0;
+}
+
+function place(image_no,position) {
+	eval("document.cell" + position + ".src='" + image_no + ".gif'; ");
+}
+
+function move(position) {
+	var test;
+	var empty;
+	var temp1;
+	var temp2;
+	if ((grid[position+4]==0) || (grid[position-4]==0) || (grid[position+1]==0) || (grid[position-1]==0)) {
+		test=true;
+	} else {
+		test=false;
+	}
+	if (test==true) {
+		if (grid[position+4]==0) {
+			empty=4;
+		} else if (grid[position-4]==0) {
+			empty=-4;
+		} else if (grid[position+1]==0) {
+			empty=1;
+		} else if (grid[position-1]==0) {
+			empty=-1;
+		}
+		place(grid[position],position+empty);
+		place(grid[position+empty],position);
+
+		temp1=grid[position];
+		temp2=grid[position+empty];
+		grid[position+empty]=temp1;
+		grid[position]=temp2;
+	} else {
+		alert("You must move a tile that is next to the blank tile");
+	} 
+}
+
+function scramble() {
+	var position;
+	for (i=0;i<grid_size;i++) {
+		grid[i]=-1;
+	}
+	for (i=0;i<grid_size;i++) {
+		position=Math.round((grid_size-1)*Math.random());
+		while (grid[position]!==-1) {
+			position=Math.round((grid_size-1)*Math.random());
+		}
+		grid[position]=i;
+		place(i,position);
+	}
+}
+// -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY>
+<FONT FACE="Arial">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+load_images();
+// -->
+</SCRIPT>
+<H1 ALIGN="center">Number Slider Puzzle</H1>
+
+<TABLE BORDER=1 CELLPADDING=5 CELLSPACING=0 ALIGN="center">
+<TR><TD>
+<H2>Instructions</H2>
+<H3>
+<P>Scramble the puzzle by clicking on the scramble button below.
+<BR>
+<I>Slide</I> the numbers into the correct order by clicking on the number you want to move.
+<BR>
+You may only move one number at a time.
+<BR>
+You cannot move diagonally.</P>
+</H3>
+
+<H2 ALIGN="center">Enjoy!</H2>
+
+<P ALIGN="center">
+<A HREF="javascript:scramble()"><IMG SRC="scramble.gif" ALT="scramble" BORDER=0></A>
+</P>
+
+</TD>
+<TD>
+
+<TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0 ALIGN="center">
+<TR>
+	<TD><A HREF="javascript:move(0)"><IMG SRC="1.gif" NAME="cell0" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(1)"><IMG SRC="2.gif" NAME="cell1" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(2)"><IMG SRC="3.gif" NAME="cell2" BORDER=0></A></TD>
+
+	<TD><A HREF="javascript:move(3)"><IMG SRC="4.gif" NAME="cell3" BORDER=0></A></TD>
+</TR>
+<TR>
+	<TD><A HREF="javascript:move(4)"><IMG SRC="5.gif" NAME="cell4" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(5)"><IMG SRC="6.gif" NAME="cell5" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(6)"><IMG SRC="7.gif" NAME="cell6" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(7)"><IMG SRC="8.gif" NAME="cell7" BORDER=0></A></TD>
+</TR>
+<TR>
+	<TD><A HREF="javascript:move(8)"><IMG SRC="9.gif" NAME="cell8" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(9)"><IMG SRC="10.gif" NAME="cell9" BORDER=0></A></TD>
+
+	<TD><A HREF="javascript:move(10)"><IMG SRC="11.gif" NAME="cell10" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(11)"><IMG SRC="12.gif" NAME="cell11" BORDER=0></A></TD>
+</TR>
+<TR>
+	<TD><A HREF="javascript:move(12)"><IMG SRC="13.gif" NAME="cell12" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(13)"><IMG SRC="14.gif" NAME="cell13" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(14)"><IMG SRC="15.gif" NAME="cell14" BORDER=0></A></TD>
+	<TD><A HREF="javascript:move(15)"><IMG SRC="0.gif" NAME="cell15" BORDER=0></A></TD>
+</TR>
+
+</TABLE>
+
+</TD>
+</TABLE>
+
+</FONT>
+</BODY>
+</HTML>

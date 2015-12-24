@@ -1,0 +1,94 @@
+8
+
+dir
+12
+svn://192.168.0.9/projetosWEB/sgpo-transitare/prova_asp/agc/candidatos
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+add_candidato.asp
+file
+
+
+
+
+2008-03-18T14:18:55.437500Z
+98fc1acabfb7f13dfc86d9ab9bbb3144
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+validacao.asp
+file
+
+
+
+
+2008-03-18T14:18:55.453125Z
+c42a01aaa3aaaf1815c0f8dd53d76916
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+teste.asp
+file
+
+
+
+
+2008-03-18T14:18:55.468750Z
+43ad8b933d5b4160560101b69d931558
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+_vti_cnf
+dir
+
+bio
+dir
+
+index.asp
+file
+
+
+
+
+2008-03-18T14:18:55.484375Z
+a134be575bb04f05e59a3fda81200956
+2008-03-18T14:09:16.885140Z
+12
+waldir
+
+form_candidato.asp
+file
+
+
+
+
+2008-03-18T14:18:55.515625Z
+c6fee976a159560979038a1f7de95142
+2008-03-18T14:09:16.885140Z
+12
+waldir
+

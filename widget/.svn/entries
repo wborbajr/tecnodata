@@ -1,0 +1,175 @@
+8
+
+dir
+10
+svn://192.168.0.9/projetosWEB/widget
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+GetPodLastPodcast.js
+file
+
+
+
+
+2008-03-18T14:10:13.078125Z
+1a0f669ded226cbedb5ac234d30ad27a
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+podcastwidgetstools.js
+file
+
+
+
+
+2008-03-18T14:10:13.078125Z
+e08ad31545080fcbf7a66552497017f7
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+2 - uolwidgetstools.js
+file
+
+
+
+
+2008-03-18T14:10:13.093750Z
+b904a609351d9bbd9a952886f586bda6
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+podcast.widget.html
+file
+
+
+
+
+2008-03-18T14:10:13.093750Z
+e3ba9b16d28ccf8da766938c75c2f5ac
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+3 - PodcastWidgetsConfig.js
+file
+
+
+
+
+2008-03-18T14:10:13.109375Z
+1a0f669ded226cbedb5ac234d30ad27a
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+repeater_control
+dir
+
+main.html
+file
+
+
+
+
+2008-03-18T14:10:13.109375Z
+3bf5b84868d14deb9cc75a22d5066f0a
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+ptrans.widgets.js
+file
+
+
+
+
+2008-03-18T14:10:13.125000Z
+bcf978fd5f91f81cfa978ed051807531
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+1 - podcast.widget.js
+file
+
+
+
+
+2008-03-18T14:10:13.125000Z
+d7a82e5e9515316c6ced4cf3cda100da
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+3 - UolWidgetsConfigESPORTE.js
+file
+
+
+
+
+2008-03-18T14:10:13.140625Z
+1a0f669ded226cbedb5ac234d30ad27a
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+UolWidgetsConfigESPORTE.js
+file
+
+
+
+
+2008-03-18T14:10:13.140625Z
+1a0f669ded226cbedb5ac234d30ad27a
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+widget.php
+file
+
+
+
+
+2008-03-18T14:10:13.140625Z
+4356982c9bfd842a27ea50d8ab4e33bd
+2008-03-18T14:01:02.241630Z
+10
+waldir
+
+1 - uol.widget.js
+file
+
+
+
+
+2008-03-18T14:10:13.156250Z
+74fa26c85e68f10a0ce2224a88462dbc
+2008-03-18T14:01:02.241630Z
+10
+waldir
+

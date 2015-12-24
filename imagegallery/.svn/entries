@@ -1,0 +1,76 @@
+8
+
+dir
+10
+svn://192.168.0.9/projetosWEB/imagegallery
+svn://192.168.0.9/projetosWEB
+
+
+
+2008-03-18T13:59:52.962276Z
+7
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+fc2a3206-281a-4248-ad36-0bd962dc9886
+
+imgs
+dir
+
+jquery
+dir
+
+images
+dir
+
+gallery.php
+file
+
+
+
+
+2008-03-18T14:12:43.875000Z
+f4c05fbde54cfb9a04f0fb5c6be8aa51
+2008-03-18T13:59:52.962276Z
+7
+waldir
+
+gallery.js
+file
+
+
+
+
+2008-03-18T14:12:43.875000Z
+15ea9cf47faa109aae7958486fc3b013
+2008-03-18T13:59:52.962276Z
+7
+waldir
+
+jquery.lightbox
+dir
+
+index.htm
+file
+
+
+
+
+2008-03-18T14:12:43.890625Z
+12e5e1a87c7c9732278fa505a80d9ab7
+2008-03-18T13:59:52.962276Z
+7
+waldir
+

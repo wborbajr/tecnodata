@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>jQuery lightBox plugin</title>
+    
+
+	<meta name="description" content="jQuery lightBox plugin is simple, elegant, unobtrusive, no need extra markup and you use the power and flexibility of jQuery´s selector.">
+	<meta name="keywords" content="jquery lightbox, lightbox jquery, jquery lightbox plugin, jquery, lightbox, overlay, jquery overlay">
+
+	<link rel="alternate" type="application/rss+xml" title="jQuery lightBox plugin - Changelog" href="http://leandrovieira.com/projects/jquery/lightbox/changelog.rss">
+
+	<link rel="stylesheet" type="text/css" href="howtouse_arquivos/style-jquery-lightbox.css">  
+
+	<script type="text/javascript" src="howtouse_arquivos/jquery-1.js"></script>
+    <script type="text/javascript" src="howtouse_arquivos/jquery.js"></script>
+    <script type="text/javascript">
+	$(function() {
+		$('ul.idTabs').idTabs('example');
+	});
+	</script><!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    
+	
+    <script type="text/javascript" src="howtouse_arquivos/jquery_002.js"></script>
+    <link rel="stylesheet" type="text/css" href="howtouse_arquivos/jquery.css" media="screen"><!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin --><!-- Ativando o jQuery lightBox plugin -->
+    
+    
+    
+    <script type="text/javascript">
+	$(function() {
+		$('#gallery a').lightBox();
+	});
+    </script></head><body>
+
+<div id="container">
+
+	<div id="branding">
+    	<h1><a href="http://leandrovieira.com/projects/jquery/lightbox/" title="jQuery lightBox plugin">jQuery lightBox plugin</a></h1>
+        <span>By <a href="http://leandrovieira.com/" title="Leandro Vieira Pinho´s blog">Leandro Vieira Pinho</a></span>
+    </div><!-- / branding -->
+
+    <div id="content">
+
+		<div id="content-project">
+        
+        	<ul class="idTabs">
+                <li><a class="" href="#overview">Overview.</a></li>
+                <li><a class="" href="#example">Example.</a></li>
+                <li><a class="selected" href="#how-to-use">How to use.</a></li>
+                <li><a class="" href="#extend">Extend.</a></li>
+                <li><a class="" href="#changelog">Changelog.</a></li>
+            </ul>
+            
+            <div id="download">
+            	<p class="download">
+                    <a href="http://leandrovieira.com/download/5/" title="Get the new version of jQuery lightBox plugin">Get the new version of jQuery lightBox plugin</a>
+                </p>
+            </div>
+                            
+            <div style="display: none;" id="overview" class="tab">
+            	<h2>Overview</h2>
+                <p><strong>jQuery lightBox plugin</strong> is simple, elegant, unobtrusive, no need extra markup and is <strong>used to overlay images on the current page</strong> through the power and flexibility of jQuery´s selector.</p>
+				<p>lightBox is a plugin for <a href="http://jquery.com/">jQuery</a>. It was inspired in <a href="http://www.huddletogether.com/projects/lightbox2/">Lightbox JS</a> by Lokesh Dhakar.</p>
+                <p>The better way to know what is <strong>jQuery lightBox plugin</strong>, click the Example tab above and see it in action.</p>
+            </div>
+
+            <div style="display: none;" id="example" class="tab">
+            	<h2>Example</h2>
+            	<p>Click in the image and see the <strong>jQuery lightBox plugin</strong> in action.</p>
+                <div id="gallery">
+                	<ul>
+                    	<li>
+                        	<a href="http://leandrovieira.com/projects/jquery/lightbox/photos/image1.jpg" title="For this example: $('#gallery a').lightBox();">
+                            	<img src="howtouse_arquivos/thumb_image1.jpg" alt="" height="72" width="72">
+                            </a>
+                        </li>
+                    	<li>
+                        	<a href="http://leandrovieira.com/projects/jquery/lightbox/photos/image2.jpg" title="For this example: $('#gallery a').lightBox();">
+                            	<img src="howtouse_arquivos/thumb_image2.jpg" alt="" height="72" width="72">
+                            </a>
+                        </li>
+                    	<li>
+                        	<a href="http://leandrovieira.com/projects/jquery/lightbox/photos/image3.jpg" title="For this example: $('#gallery a').lightBox();">
+                            	<img src="howtouse_arquivos/thumb_image3.jpg" alt="" height="72" width="72">
+                            </a>
+                        </li>
+                    	<li>
+                        	<a href="http://leandrovieira.com/projects/jquery/lightbox/photos/image4.jpg" title="For this example: $('#gallery a').lightBox();">
+                            	<img src="howtouse_arquivos/thumb_image4.jpg" alt="" height="72" width="72">
+                            </a>
+                        </li>
+                        <li>
+                        	<a href="http://leandrovieira.com/projects/jquery/lightbox/photos/image5.jpg" title="For this example: $('#gallery a').lightBox();">
+                            	<img src="howtouse_arquivos/thumb_image5.jpg" alt="" height="72" width="72">
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- / gallery -->
+                <p>Source used in this example.</p>
+                <pre>$(function() {
+	$('#gallery a').lightBox();
+});</pre>
+            </div><!-- example -->
+
+            <div style="display: block;" id="how-to-use" class="tab">
+            	<h2>How to use</h2>
+				<h3>Parte 1 - Setup</h3>
+                <p><strong>jQuery lightBox plugin</strong> uses the <a href="http://jquery.com/">jQuery JavaScript library</a>, only. So, include just these two javascript files in your header.</p>
+                <pre>&lt;script type="text/javascript" src="js/jquery.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/jquery.lightbox-0.4.js"&gt;&lt;/script&gt;</pre>
+				<p>Include the CSS file responsible to style the <strong>jQuery lightBox plugin</strong>.</p>
+                <pre>&lt;link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.4.css" media="screen" /&gt;</pre>
+				
+                <h3>Part 2 - Activate</h3>
+                <p>You don´t need to modify your HTML markup to use <strong>jQuery lightBox plugin</strong>. Just use the power and flexibility of jQuery´s selector and create a set of related images.</p>
+                <p>The only necessity is to have a HTML markup likes it:</p>
+                <pre>&lt;a href="image1.jpg"&gt;&lt;img src="thumb_image1.jpg" width="72" height="72" alt="" /&gt;&lt;/a&gt;</pre>
+				<p>After it, select the links and call the <strong>jQuery lightBox plugin</strong>. See some examples:</p>
+                <pre>&lt;script type="text/javascript"&gt;
+$(function() {
+	// Use this example, or...
+	$('a[@rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	// This, or...
+	$('#gallery a').lightBox(); // Select all links in object with gallery ID
+	// This, or...
+	$('a.lightbox').lightBox(); // Select all links with lightbox class
+	// This, or...
+	$('a').lightBox(); // Select all links in the page
+	// ... The possibility are many. Use your creative or choose one in the examples above
+});
+&lt;/script&gt;</pre>
+				<h3>Part 3 - Have fun!</h3>
+                <p>I´ll apreciate your feedback. <a href="http://leandrovieira.com/contato">Contact-me.</a></p>
+                
+            </div><!-- / example -->
+			
+            <div style="display: none;" id="extend" class="tab">
+                <h2>Extend</h2>
+                <h3>Settings</h3>
+                <p><strong>jQuery lightBox plugin</strong> has some configurations that you can define when call it. With that configurations you can customize your <strong>jQuery lightBox plugin</strong>.</p>
+           		<p>The configurations available are:</p>
+                <ul>
+                	<li><strong>overlayBgColor</strong> - Used to define the overlay background color. #000 (black) is default.</li>
+                    <li><strong>overlayOpacity</strong> - Used to define the overlay opacity. 0.8 is default.</li>
+                    <li><strong>imageLoading</strong> - The loading gif animator. images/lightbox-ico-loading.gif is default.</li>
+                    <li><strong>imageBtnClose</strong> - The close image button. images/lightbox-btn-close.gif is default.</li>
+                </ul>
+                <p>Configurations added in 0.3 version:</p>
+                <ul>
+                	<li><strong>imageBtnPrev</strong> - The previous image button. images/lightbox-btn-prev.gif is default.</li>
+                    <li><strong>imageBtnNext</strong> - The next image button. images/lightbox-btn-next.gif is default.</li>
+                    <li><strong>containerBorderSize</strong> - The padding CSS information used in the container image box. 10 is default.</li>
+                    <li><strong>containerResizeSpeed</strong> - The duration of resize effect in the container image box. 400 is default.</li>
+                    <li><strong>txtImage</strong> - Text "Image" used in the image caption.</li>
+                    <li><strong>txtOf</strong> - Text "of" used in the image caption.</li>
+                </ul>
+                <p>Configurations added in 0.4 version:</p>
+                <ul>
+                	<li><strong>imageBlank</strong> - The image blank for trick Internet Explorer into showing hover. images/lightbox-blank.gif is default.</li>
+                    <li><strong>keyToClose</strong> - The key to close the lightBox. Letter c (close) is default.</li>
+                    <li><strong>keyToPrev</strong> - The key to show the previous image. Letter p (previous) is default.</li>
+                    <li><strong>keyToNext</strong> - The key to show the next image. Letter n (next) is default.</li>
+                </ul>
+                <p>Example.</p>
+                <pre>&lt;script type="text/javascript"&gt;
+$(function() {
+&nbsp;&nbsp;&nbsp;$('a[@rel*=lightbox]').lightBox({
+	overlayBgColor: '#FFF',
+	overlayOpacity: 0.6,
+	imageLoading: 'http://example.com/images/loading.gif',
+	imageBtnClose: 'http://example.com/images/close.gif',
+	imageBtnPrev: 'http://example.com/images/prev.gif',
+	imageBtnNext: 'http://example.com/images/next.gif',
+	containerResizeSpeed: 350,
+	txtImage: 'Imagem',
+	txtOf: 'de'
+&nbsp;&nbsp;&nbsp;});
+});
+&lt;/script&gt;</pre>
+            </div>
+
+            <div style="display: none;" id="changelog" class="tab">
+            	<h2>Changelog</h2>
+				<dl>
+                	<dt>Version 0.4, November 17, 2007</dt>
+                    <dd>
+                    	<ul>
+	                        <li>Applyed: Support to keyboard navigation with configuration.</li>
+                            <li>Applyed: Added some configurations possibility. Look:
+                            	<ul>
+                                	<li>imageBlank</li>
+                                    <li>keyToClose</li>
+                                    <li>keyToPrev</li>
+                                    <li>keyToNext</li>
+                                </ul>
+                            </li>
+                        	<li>Fixed: A bug to avoid click conflict when call the jQuery lightBox plugin more than once.</li>
+                            <li>Changed: The way to hide some elements to avoid conflict with overlay in IE. Now the visibility is used instead display.</li>
+                        </ul>
+                    </dd>
+                	<dt>Version 0.3.1, October 30, 2007</dt>
+                    <dd>
+                    	<ul>
+                        	<li>Fixed: A bug when working with only one image in Internet Explorer.</li>
+                        </ul>
+                    </dd>
+                	<dt>Version 0.3, October 12, 2007</dt>
+                    <dd>
+                    	<ul>
+                        	<li>Changed: The internal core code.</li>
+                            <li>Applyed: A Custom Alias suport; now you can use jQuery lightBox plugin in page that uses other JavaScript libraries.</li>
+                            <li>Applyed: Language support.</li>
+                            <li>Applyed: Support to resize event to calculate new dimensions to overlay and lightbox div.</li>
+                            <li>Applyed: Added new configurations possibility. Look:
+                            	<ul>
+                                	<li>imageBtnPrev</li>
+                                    <li>imageBtnNext</li>
+                                    <li>containerBorderSize</li>
+                                    <li>containerResizeSpeed</li>
+                                    <li>txtImage</li>
+                                    <li>txtOf</li>
+                                </ul>
+                            </li>
+                            <li>Fixed: The loading gif animator now appear in all changes of images.</li>
+                            <li>Fixed: The navigation doesn´t appear when title attribute was empty. It was fixed.</li>
+                        </ul>
+                    </dd>
+                	<dt>Version 0.2, October 4, 2007</dt>
+                    <dd>
+                    	<ul>
+                        	<li>Changed: The way to verify what image was clicked in the images set.</li>
+                            <li>Changed: The animation when change the images.</li>
+                        	<li>Fixed: The buttons Prev and Next are showed just in mouseover event (IE).</li>
+                        	<li>Fixed: Avoid errors when title attribute is empty.</li>
+                        </ul>
+                    </dd>
+                	<dt>Version 0.1, September 21, 2007</dt>
+                    <dd>
+                    	<p>Initial release.</p>
+                    </dd>
+                </dl>
+            </div>
+
+            <div id="widgets" class="tab">
+            	<h3>RSS</h3>
+                <p>Be notified of new jQuery lightBox plugin releases with the <a href="http://leandrovieira.com/projects/jquery/lightbox/changelog.rss">Changelog in RSS format</a>.</p>
+                <h3>Geovisitors</h3>
+            	<p><strong>Users of jQuery lightBox plugin around the world</strong></p>
+                <p><a href="http://www.digitalpoint.com/tools/geovisitors/"><img src="howtouse_arquivos/a.png" alt="Geo Visitors Map" style="border: 0pt none ;"></a></p>
+            </div>
+
+        </div><!-- / content-project -->
+        
+    </div><!-- / content -->
+
+	<div style="margin: 0pt auto 10px; width: 470px;">
+    	<p>This course is in Portuguese language.</p>
+        <p>
+            <a href="http://leandrovieira.com/cursos/" title="Curso de Dreamweaver Avançado com Leandro Vieira, colunista iMasters."><img src="howtouse_arquivos/banner-dw-avanvacado.gif" alt="Publicidade do Curso de Dreamweaver Avançado"></a>
+        </p>
+	</div>
+        
+    <div id="footer">
+    	<p>© 2007 <a href="http://leandrovieira.com/" title="Leandro Vieira Pinho´s blog">Leandro Vieira Pinho</a></p>
+        <p>
+	        <a rel="license" href="http://creativecommons.org/licenses/by-nd/2.5/br/">
+    	    	<img alt="Creative Commons License" style="border-width: 0pt;" src="howtouse_arquivos/somerights20.png">
+			</a>
+            <br>
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/br/">Creative Commons Attribution-Share Alike 2.5 Brazil License</a>.
+        </p>
+    </div><!-- / footer -->    
+    
+</div><!-- / container -->
+
+<script src="howtouse_arquivos/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-986464-7";
+urchinTracker();
+</script>
+   
+</body></html>

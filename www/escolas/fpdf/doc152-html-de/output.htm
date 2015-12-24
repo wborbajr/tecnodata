@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<TITLE>Output</TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="fpdf.css">
+</HEAD>
+<BODY>
+<H2>Output</H2>
+<TT><B>string</B> Output([<B>string</B> name [, <B>string</B> dest]])</TT>
+<H4 CLASS='st'>Version</H4>
+1.0
+<H4 CLASS='st'>Beschreibung</H4>
+Gibt das Dokument als Zeichenfolge zur&uuml;ck, speichert es in einer lokalen Datei
+oder sendet es zum Browser. Im letzteren Fall wird (sofern vorhanden) ein PDF-Plug-in zur
+Darstellung verwendet oder ein Download (&quot;Speichern unter...&quot;-Dialog)
+eingeleitet.
+<BR>
+Sofern erforderlich ruft die Methode Close() auf, um das PDF-Dokument abzuschlie&szlig;en.
+<H4 CLASS='st'>Parameter</H4>
+<TT><U>name</U></TT>
+<BLOCKQUOTE>
+Der Dateiname f&uuml;r das PDF-Dokument. Bei fehlender Angabe wird das Dokument als
+<TT>doc.pdf</TT> an den Browser gesendet (Ziel <TT>I</TT>).
+</BLOCKQUOTE>
+<TT><U>dest</U></TT>
+<BLOCKQUOTE>
+Ziel f&uuml;r die Ausgabe des Dokumentes. M&ouml;gliche Werte:
+<UL>
+<LI><TT>I</TT>: die Datei wird "inline" zum Browser gesendet, ein vorhandes PDF-Plug-in wird
+zur Anzeige genutzt. Der mit <TT>name</TT> angegebene Dateiname findet Verwendung, falls der
+das PDF erzeugende Link &uuml;ber die Option "Speichern unter..." aufgerufen wird.
+<LI><TT>D</TT>: sendet die Datei zum Browser und forciert einen Download unter der Bezeichnung
+<TT>name</TT>.
+<LI><TT>F</TT>: speichert die Datei serverseitig unter dem Dateinamen <TT>name</TT>.
+<LI><TT>S</TT>: gibt das Dokument als Zeichenfolge zur&uuml;ck. <TT>name</TT> wird ignoriert.
+</UL>
+Falls der Parameter nicht definiert, jedoch ein Dateiname angegeben wurde, wird als Ziel
+<TT>F</TT> verwendet. Fehlen alle Parameter, wird als Ziel <TT>I</TT> interpretiert.<BR>
+<BR>
+Hinweis: zur Kompatibilit&auml;t mit fr&uuml;heren Versionen wird auch ein boolscher Wert akzeptiert
+(<TT>false</TT> f&uuml;r <TT>F</TT> und <TT>true</TT> f&uuml;r <TT>D</TT>).
+</BLOCKQUOTE>
+<H4 CLASS='st'>Siehe auch</H4>
+<A HREF="close.htm">Close()</A>.
+<H6></H6>
+<HR>
+<DIV ALIGN="CENTER"><A HREF="index.htm">Index</A></DIV>
+</BODY>
+</HTML>

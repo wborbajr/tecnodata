@@ -1,0 +1,35 @@
+body { margin:0; background:#fff; }
+a { color:#000; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+
+.PTransWidgetsStyle { margin:0; }
+.PTransWidgetsStyle h1 { margin:0; padding:2px 0; background:url(http://portaldotransito.com.br/widgets/titulo-bg.gif); }
+.PTransWidgetsStyle h1 a { display:block; margin:0 3px; padding:5px 0 0 3px; border-top:1px solid #6281A1; }
+
+.PTransWidgetsStyle { background:#; }
+.PTransWidgetsStyle div.content { position:relative; height:340px; padding-top:2px; border:1px #F0F0E4; border-style:none solid; background:#fff; }
+.PTransWidgetsStyle div.content h2 { margin:0; text-transform:uppercase;  }
+.PTransWidgetsStyle div.content h2.aberto { margin:0 2px 2px; padding:3px 0 3px 19px; background:#F0F0E4 url(http://img.PTrans.com.br/widgets/primeirapagina/seta-baixo.gif) no-repeat 5px 7px; font:bold 10px verdana; color:#8B0000; }
+.PTransWidgetsStyle div.content h2 a { display:block; margin:0 2px 2px; padding:3px 0 3px 19px; background:#F0F0E4 url(http://img.PTrans.com.br/widgets/primeirapagina/seta-direita.gif) no-repeat 9px 4px; font:bold 10px verdana; color:#8B0000; }
+.PTransWidgetsStyle div.content h2 a:hover { background:#E3E3D2 url(http://img.PTrans.com.br/widgets/primeirapagina/seta-direita.gif) no-repeat 9px 4px; text-decoration:none; }
+.PTransWidgetsStyle div.rodape { position:absolute; left:0; bottom:0; width:100%; }
+.PTransWidgetsStyle div.rodape h3 { margin:0 0 6px 6px; padding-left:20px; background:url(http://img.PTrans.com.br/ico_indice.gif) no-repeat left; }
+.PTransWidgetsStyle div.rodape h3 a { font:10px arial; }
+.PTransWidgetsStyle div.rodape h4 { margin:0; border-top:1px solid #E7EAD5; text-align: center;}
+.PTransWidgetsStyle div.rodape h4 a { display:block; border:2px solid #fff; padding:5px 0; background:#F3F3F3; font:10px arial; color:#8B0000; }
+
+.PTransWidgetsStyle.Noticias dl { margin:0; padding:7px 0 0 0; }
+.PTransWidgetsStyle.Noticias dl dd { margin:0 7px 5px 7px; *margin:0 7px 8px 10px; padding:0; line-height:11px; }
+.PTransWidgetsStyle.Noticias dl dd a { font:10px verdana; }
+.PTransWidgetsStyle.Noticias dl dd strong { display:block; color:#496881; font:bold 10px verdana; }
+.PTransWidgetsStyle.Noticias dl dd img { display:inline; margin:0 0 -2px 4px; }
+.PTransWidgetsStyle.Noticias dl dd.manchete a { font:bold 12px arial; }
+
+.PTransWidgetsStyle.Fotos table.fotos { margin:15px 5px 0; }
+.PTransWidgetsStyle.Fotos table.fotos tr { background:#F3F3F3; }
+.PTransWidgetsStyle.Fotos table.fotos th { width:70px; border-bottom:5px solid #fff; text-align:left; }
+.PTransWidgetsStyle.Fotos table.fotos th img { width:65px; height:65px; }
+.PTransWidgetsStyle.Fotos table.fotos td { height:65px; border-bottom:5px solid #fff; }
+.PTransWidgetsStyle.Fotos table.fotos td a { font:10px arial; }
+

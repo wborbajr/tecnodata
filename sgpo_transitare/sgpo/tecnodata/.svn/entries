@@ -1,0 +1,85 @@
+8
+
+dir
+20
+svn://192.168.0.9/sgpo/jan_2008/sgpo/tecnodata
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+474a9ac0-9d13-40e5-9fb5-362fcb601a97
+
+idx_login.html
+file
+
+
+
+
+2008-01-08T11:10:07.828125Z
+934fc1a83e02246535485ec765b6dafa
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+bnq
+dir
+
+include
+dir
+
+login.inc.php
+file
+
+
+
+
+2008-01-08T11:10:07.828125Z
+f94efffb8cd3edb2e32eda72fe5e455c
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+gerasenha.inc.php
+file
+
+
+
+
+2008-01-08T11:10:07.828125Z
+038f5543d887fca2b84afd7dab050650
+2008-01-08T11:11:31.913212Z
+20
+waldir
+
+js
+dir
+
+saudacao.inc.php
+file
+
+
+
+
+2008-01-08T11:10:07.843750Z
+ae502fef4224e9ae465a5cf99de4304f
+2008-01-08T11:11:31.913212Z
+20
+waldir
+

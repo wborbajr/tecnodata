@@ -1,0 +1,232 @@
+8
+
+dir
+21
+svn://192.168.0.9/sgpo/jan_2008/SGPO_0.0.1/sgpo/prova
+svn://192.168.0.9/sgpo
+
+
+
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+
+svn:special svn:externals svn:needs-lock
+
+new.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+554ce07afd933248ce76e572244beab2
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+jquery
+dir
+
+iniciar_prova.inc.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+cd7e559880a0ca9d2ee60b8b1e2bd6f9
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+include
+dir
+
+imagens
+dir
+
+class_prova_2.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+d4c90b6210acdfd37c37305bd830e59d
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+conclusao.inc.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+a6ebbd3bf949bd22c4416f800541e256
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+cronometro
+dir
+
+relogio.htm
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+a942d0be3f712215788234e6b3e86434
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+css
+dir
+
+finaliza.inc.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+bb9d502c1ebecd1160b9efeb74d94533
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+tabs.html
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+334334d43684709063495327f316cf70
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+renach.inc.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+5440d680fd8f58f1479d244e7aeb7468
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+filtra_questoes.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+e87efd6464bbfe88c7b668b2d551f662
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+class_prova.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+8e991c1ab4b5b53d525cc7dcde8293e0
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+doc
+dir
+
+questoes.inc.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+df16c1d90854cb02a3378bccaeb20b74
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+telas
+dir
+
+class_comptxt.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+dd978d16c412f674d84a90a97567fbb4
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+main.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+352c5d227f338c71a30a54103bd8df28
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+index.html
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+401cc969761bc1250fb59929edba0bc8
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+cargando.inc.php
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+d6a068a34afac5055c74d74340a847ec
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
+js
+dir
+
+prova_branco.html
+file
+
+
+
+
+2007-07-17T22:02:22.000000Z
+436abae7664c6c9815e004dd174cb67c
+2008-01-08T11:26:55.399734Z
+21
+waldir
+
